@@ -1,0 +1,8 @@
+C:\Users\LMC\2020\To_Install_SDL_2dot0_for_mingw_32_64\SDL2-2.0.12\x86_64-w64-mingw32\lib\libSDL2.a
+
+C:\Users\LMC\2020\To_Install_SDL_2dot0_for_mingw_32_64\SDL2-2.0.12\x86_64-w64-mingw32\lib\libSDL2.dll.a
+
+C:\Users\LMC\2020\To_Install_SDL_2dot0_for_mingw_32_64\SDL2-2.0.12\x86_64-w64-mingw32\lib\libSDL2_test.a
+
+C:\Users\LMC\2020\To_Install_SDL_2dot0_for_mingw_32_64\SDL2-2.0.12\x86_64-w64-mingw32\lib\libSDL2main.a
+

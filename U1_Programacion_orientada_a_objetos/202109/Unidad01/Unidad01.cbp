@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Unidad01" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Release">
+				<Option output="bin/Release/Unidad01" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+			<Target title="01_constructores">
+				<Option output="bin/01_constructores/Unidad01" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="bin/01_constructores/" />
+				<Option object_output="obj/01_constructores/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+			<Target title="02_metodos">
+				<Option output="bin/02_metodos/Unidad01" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/02_metodos/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add directory="C:/Users/LMC/2020/To_Install_SDL_2dot0_for_mingw_32_64/SDL2-2.0.12/i686-w64-mingw32/include" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+			<Target title="03_class_Fraccion">
+				<Option output="bin/03_class_Fraccion/Unidad01" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="bin/03_class_Fraccion/" />
+				<Option object_output="obj/03_class_Fraccion/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+			<Add directory="incluir" />
+			<Add directory="C:/Users/LMC/2020/To_Install_SDL_Image_lib/SDL2_image-2.0.5/x86_64-w64-mingw32/include" />
+			<Add directory="C:/Users/LMC/2020/To_Install_SDL_2dot0_for_mingw_32_64/SDL2-2.0.12/x86_64-w64-mingw32/include/SDL2" />
+		</Compiler>
+		<Linker>
+			<Add option="-lmingw32  -lSDL2 -lSDL2_Image" />
+			<Add directory="C:/Users/LMC/2020/To_Install_SDL_2dot0_for_mingw_32_64/SDL2-2.0.12/i686-w64-mingw32/bin" />
+			<Add directory="SDL2_image-2.0.5/i686-w64-mingw32/bin" />
+		</Linker>
+		<Unit filename="01_constructores/Fraccion.cpp">
+			<Option target="01_constructores" />
+			<Option target="02_metodos" />
+			<Option target="03_class_Fraccion" />
+		</Unit>
+		<Unit filename="01_constructores/TestFraccion.cpp">
+			<Option target="01_constructores" />
+			<Option target="03_class_Fraccion" />
+		</Unit>
+		<Unit filename="02_metodos/TestMetodos.cpp">
+			<Option target="02_metodos" />
+		</Unit>
+		<Unit filename="02_metodos/mcd.cpp">
+			<Option target="02_metodos" />
+			<Option target="03_class_Fraccion" />
+		</Unit>
+		<Unit filename="03_class_Fraccion/dispgiffiles.cpp">
+			<Option target="03_class_Fraccion" />
+			<Option target="02_metodos" />
+		</Unit>
+		<Unit filename="03_class_Fraccion/usemimetex.cpp">
+			<Option target="02_metodos" />
+			<Option target="03_class_Fraccion" />
+		</Unit>
+		<Unit filename="incluir/CDummy.h" />
+		<Unit filename="incluir/Fraccion.h">
+			<Option target="01_constructores" />
+			<Option target="02_metodos" />
+			<Option target="03_class_Fraccion" />
+		</Unit>
+		<Unit filename="incluir/class/Fraccion.h">
+			<Option target="03_class_Fraccion" />
+		</Unit>
+		<Extensions />
+	</Project>
+</CodeBlocks_project_file>
