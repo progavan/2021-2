@@ -6,18 +6,6 @@
 		<Option pch_mode="2" />
 		<Option compiler="gcc" />
 		<Build>
-			<Target title="Release">
-				<Option output="bin/Release/Unidad01" prefix_auto="1" extension_auto="1" />
-				<Option object_output="obj/Release/" />
-				<Option type="1" />
-				<Option compiler="gcc" />
-				<Compiler>
-					<Add option="-O2" />
-				</Compiler>
-				<Linker>
-					<Add option="-s" />
-				</Linker>
-			</Target>
 			<Target title="01_constructores">
 				<Option output="bin/01_constructores/Unidad01" prefix_auto="1" extension_auto="1" />
 				<Option working_dir="bin/01_constructores/" />
@@ -46,7 +34,7 @@
 			</Target>
 			<Target title="03_class_Fraccion">
 				<Option output="bin/03_class_Fraccion/Unidad01" prefix_auto="1" extension_auto="1" />
-				<Option working_dir="bin/03_class_Fraccion/" />
+				<Option working_dir="../Unidad01" />
 				<Option object_output="obj/03_class_Fraccion/" />
 				<Option type="1" />
 				<Option compiler="gcc" />
@@ -70,20 +58,18 @@
 			<Add directory="C:/Users/LMC/2020/To_Install_SDL_2dot0_for_mingw_32_64/SDL2-2.0.12/i686-w64-mingw32/bin" />
 			<Add directory="SDL2_image-2.0.5/i686-w64-mingw32/bin" />
 		</Linker>
-		<Unit filename="01_constructores/Fraccion.cpp">
-			<Option target="01_constructores" />
-			<Option target="02_metodos" />
-			<Option target="03_class_Fraccion" />
-		</Unit>
+		<Unit filename="01_constructores/Fraccion.cpp" />
 		<Unit filename="01_constructores/TestFraccion.cpp">
 			<Option target="01_constructores" />
-			<Option target="03_class_Fraccion" />
 		</Unit>
 		<Unit filename="02_metodos/TestMetodos.cpp">
 			<Option target="02_metodos" />
 		</Unit>
-		<Unit filename="02_metodos/mcd.cpp">
-			<Option target="02_metodos" />
+		<Unit filename="02_metodos/mcd.cpp" />
+		<Unit filename="03_class_Fraccion/EquivDFraciones.cpp">
+			<Option target="03_class_Fraccion" />
+		</Unit>
+		<Unit filename="03_class_Fraccion/TestEquivDFracciones.cpp">
 			<Option target="03_class_Fraccion" />
 		</Unit>
 		<Unit filename="03_class_Fraccion/dispgiffiles.cpp">
@@ -95,9 +81,8 @@
 			<Option target="03_class_Fraccion" />
 		</Unit>
 		<Unit filename="incluir/CDummy.h" />
-		<Unit filename="incluir/Fraccion.h">
-			<Option target="01_constructores" />
-			<Option target="02_metodos" />
+		<Unit filename="incluir/Fraccion.h" />
+		<Unit filename="incluir/class/EquivDFraciones.h">
 			<Option target="03_class_Fraccion" />
 		</Unit>
 		<Unit filename="incluir/class/Fraccion.h">

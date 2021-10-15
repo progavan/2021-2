@@ -11,8 +11,19 @@ int create_gif(std::string gifFileName,std::string laTeXexp)
   ZeroMemory(&si,sizeof(si));
   si.cb=sizeof(si);
   ZeroMemory(&pi,sizeof(pi));
+  #if 0 //2021.10.14
+  std::cout<<"gifFileName="<<gifFileName<<"\n";
+  std::cout<<"laTeXexp="<<laTeXexp<<"\n";
+  #endif // 1
+  #if 0 //2021.10.14
   sprintf(str,"mimetex.exe -e %s \"%s\"",&gifFileName[0],
+  #else
+  sprintf(str,"mimetex.exe -e %s \"%s\"",gifFileName.c_str(),
+  #endif // 0
           &laTeXexp[0]);
+  #if 0 //2021.10.14
+  printf("\n\nstr:%s\n\n",str);
+  #endif // 1
   if(!CreateProcess(MIMETEX,str,0,0,0,0,0,0,&si,&pi)){
     /*Could not start process*/
     std::cerr<<"Could not start process :-( "<<std::endl;

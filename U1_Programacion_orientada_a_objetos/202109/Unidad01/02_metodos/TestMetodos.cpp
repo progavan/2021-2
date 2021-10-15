@@ -47,9 +47,13 @@ no match for 'operator<<' (operand types are 'std::ostream'
  cout << G << endl;
 #if 1 //2021.10.06
  std::string imgFileName="file01.gif";
+ //std::cout<<"G.to_string(): "<<G.to_string()<<"\n";
  create_gif(imgFileName,G.to_string());
+ //std::cout<<"G.to_string(): "<<G.to_string()<<"\n";
+ #if 1
  gifFile.push_back(imgFileName);
  display_gui(gifFile,40,30);
+ #endif
 #endif
  return 0;
 }

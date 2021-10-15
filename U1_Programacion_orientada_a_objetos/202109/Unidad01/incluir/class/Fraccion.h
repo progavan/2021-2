@@ -21,6 +21,7 @@ public:
   #else
 class Fraccion {
 friend std::ostream& operator<<(std::ostream&,Fraccion rhs);
+friend class EquivDFracciones;
   #endif
  int n;                   /** numerador*/
  int d;                   /** denominador*/
@@ -28,6 +29,11 @@ friend std::ostream& operator<<(std::ostream&,Fraccion rhs);
  unsigned int D;          /** D=abs(d) */
 public:
  Fraccion(int num,int den);
+/**
+ 1: Se conserva el constructor por defecto para no romper
+    el objetivo 01_constructores.
+ 0: Se rompe el objetivo 01_constructores.
+*/
  #if 1
  Fraccion();
  #endif
@@ -38,6 +44,11 @@ public:
  unsigned int MCD(int NUM,int DEN);
 #if 1 //2021.10.05
  std::string to_string();/** Codifica una cadena en \LaTeX */
+#endif
+#if 1 //2021.10.14
+ char signo();/** '+' Si la Fracci\'on es > 0.
+                  '-' Si la Fracci\'on es < 0.
+               */
 #endif
 };/* end class Fraccion */
 

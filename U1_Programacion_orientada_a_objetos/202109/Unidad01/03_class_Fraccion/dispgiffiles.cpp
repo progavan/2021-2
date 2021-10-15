@@ -19,7 +19,7 @@ void disp_gif_files(SDL_Window* g_pWindow,SDL_Renderer* g_pRenderer,
   SDL_Event event;
   int done = 0;
   int x=0,y=0;
-  SDL_Texture* m_pTexture=0;   // SDL_Texture variable
+  SDL_Texture* m_pTexture=0; // SDL_Texture variable
   SDL_Rect m_sourceRectangle;// the first rectangle
   SDL_Rect m_destinationRectangle;// another rectangle
   SDL_SetRenderDrawColor(g_pRenderer,255,255,255,255);//Fondo blanco
