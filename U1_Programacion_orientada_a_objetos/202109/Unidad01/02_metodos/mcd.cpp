@@ -1,5 +1,9 @@
 #include <cmath>
+#if 0
 #include <Fraccion.h>
+#else
+#include <class/Fraccion.h>
+#endif
 #if 0 /** Con 0, ahora MCD es un m\'etodo. */
 unsigned int MCD(int n,int d)
 #else
