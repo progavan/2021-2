@@ -58,11 +58,4 @@ no match for 'operator<<' (operand types are 'std::ostream'
  return 0;
 }
 
-//C:\Users\LMC\2021\REPOS_2021\2022_1_PROG_AVAN___2MV10\202109\Unidad01\02_metodos\TestMetodos.cpp|11|
-//error: no match for 'operator<<' (
-//operand types are 'std::ostream' {aka 'std::basic_ostream<char>'}
-//and 'Fraccion')|
 
-//incluir\Fraccion.h|22|error:
-//'std::ostream& Fraccion::operator<<(std::ostream&, Fraccion)'
-//must have exactly one argument|
