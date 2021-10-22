@@ -7,7 +7,7 @@
  1: Se utiliza un inicializador.
  */
 EquivDFracciones::EquivDFracciones(Fraccion *p)
-#if 0
+#if 1
 :F_Pt(p){/** Deliberadamente vac\'io. */}
 #else
 {

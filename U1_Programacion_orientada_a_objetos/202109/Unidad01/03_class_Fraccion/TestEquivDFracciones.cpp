@@ -1,7 +1,8 @@
 #include <iostream>
 #include <vector>
-#include <class/Fraccion.h>
 #include <class/EquivDFraciones.h>
+#include <class/Fraccion.h>
+
 std::vector<std::string> gifFile;
 
 int main(){
@@ -11,7 +12,7 @@ int main(){
             //"\\mbox{FRACCIONES EQUIVALENTES}");
             "\\mbox{Fracciones Equivalentes}");
  gifFile.push_back(imgFileName);
-#if 1
+#if 0
  Fraccion F(112,324);
  EquivDFracciones EdF(&F);
  imgFileName="file01.gif";

@@ -22,6 +22,7 @@ public:
 class Fraccion {
 friend std::ostream& operator<<(std::ostream&,Fraccion rhs);
 friend class EquivDFracciones;
+friend class SumaDFracciones;
   #endif
  int n;                   /** numerador*/
  int d;                   /** denominador*/

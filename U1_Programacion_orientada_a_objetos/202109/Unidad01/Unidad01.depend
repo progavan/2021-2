@@ -417,12 +417,13 @@
 	<iostream>
 	<cmath>
 
-1634260638 c:\users\lmc\2021\repos_2021\2mm4_prog_avan_2021-2\repo\org_progavan\2021-2\u1_programacion_orientada_a_objetos\202109\unidad01\incluir\class\fraccion.h
+1634855012 c:\users\lmc\2021\repos_2021\2mm4_prog_avan_2021-2\repo\org_progavan\2021-2\u1_programacion_orientada_a_objetos\202109\unidad01\incluir\class\fraccion.h
 	<iostream>
 
-1633040300 source:c:\users\lmc\2021\repos_2021\2mm4_prog_avan_2021-2\repo\org_progavan\2021-2\u1_programacion_orientada_a_objetos\202109\unidad01\02_metodos\mcd.cpp
+1634266469 source:c:\users\lmc\2021\repos_2021\2mm4_prog_avan_2021-2\repo\org_progavan\2021-2\u1_programacion_orientada_a_objetos\202109\unidad01\02_metodos\mcd.cpp
 	<cmath>
 	<Fraccion.h>
+	<class/Fraccion.h>
 
 1634264475 source:c:\users\lmc\2021\repos_2021\2mm4_prog_avan_2021-2\repo\org_progavan\2021-2\u1_programacion_orientada_a_objetos\202109\unidad01\03_class_fraccion\dispgiffiles.cpp
 	<iostream>
@@ -435,7 +436,7 @@
 	<windows.h>
 	<stdio.h>
 
-1634252182 source:c:\users\lmc\2021\repos_2021\2mm4_prog_avan_2021-2\repo\org_progavan\2021-2\u1_programacion_orientada_a_objetos\202109\unidad01\02_metodos\testmetodos.cpp
+1634266749 source:c:\users\lmc\2021\repos_2021\2mm4_prog_avan_2021-2\repo\org_progavan\2021-2\u1_programacion_orientada_a_objetos\202109\unidad01\02_metodos\testmetodos.cpp
 	<iostream>
 	<vector>
 	<Fraccion.h>
@@ -445,18 +446,26 @@
 	<iostream>
 	<Fraccion.h>
 
-1634263979 source:c:\users\lmc\2021\repos_2021\2mm4_prog_avan_2021-2\repo\org_progavan\2021-2\u1_programacion_orientada_a_objetos\202109\unidad01\03_class_fraccion\testequivdfracciones.cpp
+1634851837 source:c:\users\lmc\2021\repos_2021\2mm4_prog_avan_2021-2\repo\org_progavan\2021-2\u1_programacion_orientada_a_objetos\202109\unidad01\03_class_fraccion\testequivdfracciones.cpp
 	<iostream>
 	<vector>
-	<class/Fraccion.h>
 	<class/EquivDFraciones.h>
+	<class/Fraccion.h>
 
 1634264871 c:\users\lmc\2021\repos_2021\2mm4_prog_avan_2021-2\repo\org_progavan\2021-2\u1_programacion_orientada_a_objetos\202109\unidad01\incluir\class\equivdfraciones.h
 	<iostream>
 	<vector>
 
-1634264468 source:c:\users\lmc\2021\repos_2021\2mm4_prog_avan_2021-2\repo\org_progavan\2021-2\u1_programacion_orientada_a_objetos\202109\unidad01\03_class_fraccion\equivdfraciones.cpp
+1634851688 source:c:\users\lmc\2021\repos_2021\2mm4_prog_avan_2021-2\repo\org_progavan\2021-2\u1_programacion_orientada_a_objetos\202109\unidad01\03_class_fraccion\equivdfraciones.cpp
 	<cmath>
 	<class/Fraccion.h>
 	<class/EquivDFraciones.h>
+
+1634855748 source:c:\users\lmc\2021\repos_2021\2mm4_prog_avan_2021-2\repo\org_progavan\2021-2\u1_programacion_orientada_a_objetos\202109\unidad01\04_suma_dfraciones\testsumadfracciones.cpp
+	<iostream>
+	<vector>
+	<class/SumaDFracciones.h>
+	<class/Fraccion.h>
+
+1634855624 c:\users\lmc\2021\repos_2021\2mm4_prog_avan_2021-2\repo\org_progavan\2021-2\u1_programacion_orientada_a_objetos\202109\unidad01\incluir\class\sumadfracciones.h
 
