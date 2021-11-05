@@ -1,3 +1,4 @@
+#include <iostream>
 #include <cmath>
 #if 0
 #include <Fraccion.h>
@@ -19,6 +20,10 @@ unsigned int Fraccion::MCD(int n,int d)
    D=aux;
   }
   while((aux=N%D)!=0){/*Algoritmo de Euclides*/
+  //#if 1 //LMC 2021.10.28.17.30
+  #if 0 //LMC 2021.10.28.17.50
+   std::cout << "EUCLIDES: while((aux=N%D)!=0)\n";
+  #endif
    N=D;
    D=aux;
   }

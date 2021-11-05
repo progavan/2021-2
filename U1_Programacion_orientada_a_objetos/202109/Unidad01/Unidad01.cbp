@@ -47,8 +47,34 @@
 			</Target>
 			<Target title="04_Suma_DFraciones">
 				<Option output="bin/04_Suma_DFraciones/Unidad01" prefix_auto="1" extension_auto="1" />
-				<Option working_dir="bin/04_Suma_DFraciones/" />
+				<Option working_dir="../Unidad01" />
 				<Option object_output="obj/04_Suma_DFraciones/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+			<Target title="05_SumaAlg_DFracciones">
+				<Option output="bin/05_SumaAlg_DFracciones/Unidad01" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="../Unidad01" />
+				<Option object_output="obj/05_SumaAlg_DFracciones/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+			<Target title="06_ComparacionDFracciones">
+				<Option output="bin/06_ComparacionDFaacciones/Unidad01" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="../Unidad01" />
+				<Option object_output="obj/06_ComparacionDFaacciones/" />
 				<Option type="1" />
 				<Option compiler="gcc" />
 				<Compiler>
@@ -82,6 +108,8 @@
 		<Unit filename="03_class_Fraccion/EquivDFraciones.cpp">
 			<Option target="03_class_Fraccion" />
 			<Option target="04_Suma_DFraciones" />
+			<Option target="05_SumaAlg_DFracciones" />
+			<Option target="06_ComparacionDFracciones" />
 		</Unit>
 		<Unit filename="03_class_Fraccion/TestEquivDFracciones.cpp">
 			<Option target="03_class_Fraccion" />
@@ -90,30 +118,67 @@
 			<Option target="03_class_Fraccion" />
 			<Option target="02_metodos" />
 			<Option target="04_Suma_DFraciones" />
+			<Option target="05_SumaAlg_DFracciones" />
+			<Option target="06_ComparacionDFracciones" />
 		</Unit>
 		<Unit filename="03_class_Fraccion/usemimetex.cpp">
 			<Option target="02_metodos" />
 			<Option target="03_class_Fraccion" />
 			<Option target="04_Suma_DFraciones" />
+			<Option target="05_SumaAlg_DFracciones" />
+			<Option target="06_ComparacionDFracciones" />
 		</Unit>
 		<Unit filename="04_Suma_DFraciones/SumaDFracciones.cpp">
 			<Option target="04_Suma_DFraciones" />
+			<Option target="05_SumaAlg_DFracciones" />
+			<Option target="06_ComparacionDFracciones" />
 		</Unit>
 		<Unit filename="04_Suma_DFraciones/TestSumaDFracciones.cpp">
 			<Option target="04_Suma_DFraciones" />
 		</Unit>
-		<Unit filename="incluir/CDummy.h" />
-		<Unit filename="incluir/Fraccion.h" />
+		<Unit filename="05_SumaAlg_DFracciones/TestSumaAlgDFracciones.cpp">
+			<Option target="05_SumaAlg_DFracciones" />
+		</Unit>
+		<Unit filename="06_ComparacionDFracciones/ComparacionDFracciones.cpp">
+			<Option target="06_ComparacionDFracciones" />
+		</Unit>
+		<Unit filename="06_ComparacionDFracciones/TestComparacionDFracciones.cpp">
+			<Option target="06_ComparacionDFracciones" />
+		</Unit>
+		<Unit filename="incluir/CDummy.h">
+			<Option target="01_constructores" />
+			<Option target="02_metodos" />
+			<Option target="03_class_Fraccion" />
+		</Unit>
+		<Unit filename="incluir/Fraccion.h">
+			<Option target="02_metodos" />
+			<Option target="03_class_Fraccion" />
+		</Unit>
+		<Unit filename="incluir/class/ComparacionDFracciones.h">
+			<Option target="06_ComparacionDFracciones" />
+		</Unit>
 		<Unit filename="incluir/class/EquivDFraciones.h">
 			<Option target="03_class_Fraccion" />
 			<Option target="04_Suma_DFraciones" />
+			<Option target="05_SumaAlg_DFracciones" />
+			<Option target="06_ComparacionDFracciones" />
 		</Unit>
 		<Unit filename="incluir/class/Fraccion.h">
 			<Option target="03_class_Fraccion" />
 			<Option target="04_Suma_DFraciones" />
+			<Option target="01_constructores" />
+			<Option target="05_SumaAlg_DFracciones" />
+			<Option target="06_ComparacionDFracciones" />
 		</Unit>
 		<Unit filename="incluir/class/SumaDFracciones.h">
 			<Option target="04_Suma_DFraciones" />
+			<Option target="05_SumaAlg_DFracciones" />
+			<Option target="06_ComparacionDFracciones" />
+		</Unit>
+		<Unit filename="incluir/common.h">
+			<Option target="04_Suma_DFraciones" />
+			<Option target="05_SumaAlg_DFracciones" />
+			<Option target="06_ComparacionDFracciones" />
 		</Unit>
 		<Extensions />
 	</Project>

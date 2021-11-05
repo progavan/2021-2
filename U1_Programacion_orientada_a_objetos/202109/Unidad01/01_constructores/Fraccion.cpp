@@ -26,10 +26,19 @@ Fraccion::Fraccion(int num,int den)
 Fraccion::Fraccion()
 { /** Deliberadamente vac\'io. */ }
 #endif // 0
-
+Fraccion::Fraccion(const Fraccion& rhs)
+{
+  N=abs(n = rhs.n);
+  D=abs(d = rhs.d);
+}
+#if 1
 Fraccion Fraccion::operator+(Fraccion rhs)
+#else
+Fraccion& Fraccion::operator+(Fraccion rhs)
+#endif
 {
   Fraccion R(0,1);                /**  n/d + rhs.n/rhs.d */
+  //Fraccion &R = R_;
   int den_com = d * rhs.d;
   int n_r = (den_com/d)*n + (den_com/rhs.d)*rhs.n;
   R.n = n_r;
@@ -58,7 +67,17 @@ unsigned int MCD(int NUM,int DEN){
 #endif
 
 void Fraccion::simplificar(){
+#if 0 //LMC 2021.10.28.17.43
  unsigned int mcd = MCD(N,D);
+#else
+ unsigned int mcd = MCD(n,d);
+ N = abs(n);
+ D = abs(d);
+#endif
+ #if 0
+ std::cout << "Fraccion::simplificar(): mcd = "
+           << mcd << "\n";
+ #endif // 0
  N /= mcd; /**  N = N / mcd */
  D /= mcd; /**  D = D / mcd */
 }
@@ -93,8 +112,8 @@ char Fraccion::signo()
  char sgn_num,sgn_den;
  sgn_num = (n>=0)?'+':'-';
  sgn_den = (d>=0)?'+':'-';
- if (sgn_num==sgn_den) {
-   return '+';
+ if (sgn_num==sgn_den) {/** Regla de los signos */
+   return '+';         /** (multipicaci\'on || divisi\'on) */
  }
  return '-';
 }

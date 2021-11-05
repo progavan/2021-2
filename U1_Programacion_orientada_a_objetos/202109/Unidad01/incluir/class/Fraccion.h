@@ -23,6 +23,7 @@ class Fraccion {
 friend std::ostream& operator<<(std::ostream&,Fraccion rhs);
 friend class EquivDFracciones;
 friend class SumaDFracciones;
+friend class ComparacionDFracciones;
   #endif
  int n;                   /** numerador*/
  int d;                   /** denominador*/
@@ -38,6 +39,7 @@ public:
  #if 1
  Fraccion();
  #endif
+ Fraccion(const Fraccion& rhs);
  /** Operacion de la clase Fraccion */
  Fraccion operator+(Fraccion rhs);
 
@@ -47,7 +49,7 @@ public:
  std::string to_string();/** Codifica una cadena en \LaTeX */
 #endif
 #if 1 //2021.10.14
- char signo();/** '+' Si la Fracci\'on es > 0.
+ char signo();/** '+' Si la Fracci\'on es >= 0.
                   '-' Si la Fracci\'on es < 0.
                */
 #endif

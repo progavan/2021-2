@@ -10,9 +10,10 @@ public:
  std::string to_string();/** Codifica una cadena en \LaTeX */
 };/*end class EquivDFracciones */
 
-void display_gui(std::vector<std::string>& gifFile,
-                 int x0,
-                 int y0);
-int create_gif(std::string gifFileName,
-               std::string laTeXexp);
+// Moved to file common.h
+//void display_gui(std::vector<std::string>& gifFile,
+//                 int x0,
+//                 int y0);
+//int create_gif(std::string gifFileName,
+//               std::string laTeXexp);
 #endif // EQUIVDFRACIONES_H_INCLUDED
