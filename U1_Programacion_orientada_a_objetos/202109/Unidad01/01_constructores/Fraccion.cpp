@@ -118,3 +118,28 @@ char Fraccion::signo()
  return '-';
 }
 #endif
+/**
+ 1/2 comparado con 1/4
+ 1*4 > 2*1, => 1/2 > 1/4
+ -1/2 < 1/(-4)
+ (-1)*(-4) > (1)*(2) conducir\'ia a -1/2 > 1/(-4)
+*/
+
+bool Fraccion::operator>(Fraccion rhs)
+{
+  N = abs(n);rhs.N = abs(rhs.n);
+  D = abs(d);rhs.D = abs(rhs.d);
+  #if 0
+  if(N*rhs.D > rhs.N*D)
+    return true;
+  #else
+    return (((float)n/d) > ((float)rhs.n/rhs.d));
+  #endif
+}
+
+bool Fraccion::operator==(Fraccion rhs)
+{
+  N = abs(n);rhs.N = abs(rhs.n);
+  D = abs(d);rhs.D = abs(rhs.d);
+  return (((float)n/d) == ((float)rhs.n/rhs.d));
+}

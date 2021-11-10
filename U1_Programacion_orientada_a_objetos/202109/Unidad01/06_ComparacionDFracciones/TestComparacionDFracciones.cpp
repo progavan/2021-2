@@ -1,6 +1,7 @@
 #include <iostream>
 #include <vector>
 #include <class/EquivDFraciones.h>
+#include <class/SumaDFracciones.h>
 #include <class/ComparacionDFracciones.h>
 #include <class/Fraccion.h>
 #include <common.h>

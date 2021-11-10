@@ -53,6 +53,8 @@ public:
                   '-' Si la Fracci\'on es < 0.
                */
 #endif
+ bool operator>(Fraccion rhs);
+ bool operator==(Fraccion rhs);
 };/* end class Fraccion */
 
 #endif // FRACCION_H_INCLUDED
