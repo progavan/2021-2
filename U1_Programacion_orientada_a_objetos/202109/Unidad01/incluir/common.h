@@ -9,7 +9,7 @@ void display_gui(std::vector<std::string>& gifFile,
 int create_gif(std::string gifFileName,
                std::string laTeXexp);
 
-class Util_push {
+class Util {
 static unsigned int num_d_image;
 public:
 static void push(std::string laTeXexp);

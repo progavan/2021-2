@@ -506,3 +506,89 @@
 	<class/Fraccion.h>
 	<class/ComparacionDFracciones.h>
 
+1636509659 source:c:\users\lmc\2021\repos_2021\2mm4_prog_avan_2021-2\repo_progavan_2021-2\org_progavan\2021-2\u1_programacion_orientada_a_objetos\202109\unidad01\00_common\common.cpp
+	<stdio.h>
+	<common.h>
+
+1636509366 c:\users\lmc\2021\repos_2021\2mm4_prog_avan_2021-2\repo_progavan_2021-2\org_progavan\2021-2\u1_programacion_orientada_a_objetos\202109\unidad01\incluir\common.h
+	<iostream>
+	<vector>
+
+1636500791 source:c:\users\lmc\2021\repos_2021\2mm4_prog_avan_2021-2\repo_progavan_2021-2\org_progavan\2021-2\u1_programacion_orientada_a_objetos\202109\unidad01\01_constructores\fraccion.cpp
+	<Fraccion.h>
+	<class/Fraccion.h>
+
+1633036495 c:\users\lmc\2021\repos_2021\2mm4_prog_avan_2021-2\repo_progavan_2021-2\org_progavan\2021-2\u1_programacion_orientada_a_objetos\202109\unidad01\incluir\fraccion.h
+	<iostream>
+	<cmath>
+
+1636500791 c:\users\lmc\2021\repos_2021\2mm4_prog_avan_2021-2\repo_progavan_2021-2\org_progavan\2021-2\u1_programacion_orientada_a_objetos\202109\unidad01\incluir\class\fraccion.h
+	<iostream>
+
+1635457904 source:c:\users\lmc\2021\repos_2021\2mm4_prog_avan_2021-2\repo_progavan_2021-2\org_progavan\2021-2\u1_programacion_orientada_a_objetos\202109\unidad01\02_metodos\mcd.cpp
+	<iostream>
+	<cmath>
+	<Fraccion.h>
+	<class/Fraccion.h>
+
+1634260875 source:c:\users\lmc\2021\repos_2021\2mm4_prog_avan_2021-2\repo_progavan_2021-2\org_progavan\2021-2\u1_programacion_orientada_a_objetos\202109\unidad01\03_class_fraccion\dispgiffiles.cpp
+	<iostream>
+	<stdio.h>
+	<SDL2/SDL_image.h>
+	<vector>
+
+1634848088 source:c:\users\lmc\2021\repos_2021\2mm4_prog_avan_2021-2\repo_progavan_2021-2\org_progavan\2021-2\u1_programacion_orientada_a_objetos\202109\unidad01\03_class_fraccion\equivdfraciones.cpp
+	<cmath>
+	<class/Fraccion.h>
+	<class/EquivDFraciones.h>
+
+1635281690 c:\users\lmc\2021\repos_2021\2mm4_prog_avan_2021-2\repo_progavan_2021-2\org_progavan\2021-2\u1_programacion_orientada_a_objetos\202109\unidad01\incluir\class\equivdfraciones.h
+	<iostream>
+	<vector>
+
+1634248372 source:c:\users\lmc\2021\repos_2021\2mm4_prog_avan_2021-2\repo_progavan_2021-2\org_progavan\2021-2\u1_programacion_orientada_a_objetos\202109\unidad01\03_class_fraccion\usemimetex.cpp
+	<iostream>
+	<windows.h>
+	<stdio.h>
+
+1636066631 source:c:\users\lmc\2021\repos_2021\2mm4_prog_avan_2021-2\repo_progavan_2021-2\org_progavan\2021-2\u1_programacion_orientada_a_objetos\202109\unidad01\04_suma_dfraciones\sumadfracciones.cpp
+	<cmath>
+	<class/Fraccion.h>
+	<class/SumaDFracciones.h>
+
+1636065941 c:\users\lmc\2021\repos_2021\2mm4_prog_avan_2021-2\repo_progavan_2021-2\org_progavan\2021-2\u1_programacion_orientada_a_objetos\202109\unidad01\incluir\class\sumadfracciones.h
+	<iostream>
+
+1636071350 source:c:\users\lmc\2021\repos_2021\2mm4_prog_avan_2021-2\repo_progavan_2021-2\org_progavan\2021-2\u1_programacion_orientada_a_objetos\202109\unidad01\05_sumaalg_dfracciones\testsumaalgdfracciones.cpp
+	<iostream>
+	<vector>
+	<class/EquivDFraciones.h>
+	<class/SumaDFracciones.h>
+	<class/Fraccion.h>
+	<common.h>
+
+1636513119 source:c:\users\lmc\2021\repos_2021\2mm4_prog_avan_2021-2\repo_progavan_2021-2\org_progavan\2021-2\u1_programacion_orientada_a_objetos\202109\unidad01\07_util\test_util.cpp
+	<iostream>
+	<vector>
+	<class/EquivDFraciones.h>
+	<class/SumaDFracciones.h>
+	<class/ComparacionDFracciones.h>
+	<class/Fraccion.h>
+	<common.h>
+
+1636510045 c:\users\lmc\2021\repos_2021\2mm4_prog_avan_2021-2\repo_progavan_2021-2\org_progavan\2021-2\u1_programacion_orientada_a_objetos\202109\unidad01\incluir\class\comparaciondfracciones.h
+
+1636510653 source:c:\users\lmc\2021\repos_2021\2mm4_prog_avan_2021-2\repo_progavan_2021-2\org_progavan\2021-2\u1_programacion_orientada_a_objetos\202109\unidad01\06_comparaciondfracciones\comparaciondfracciones.cpp
+	<cmath>
+	<class/Fraccion.h>
+	<class/ComparacionDFracciones.h>
+
+1636504715 source:c:\users\lmc\2021\repos_2021\2mm4_prog_avan_2021-2\repo_progavan_2021-2\org_progavan\2021-2\u1_programacion_orientada_a_objetos\202109\unidad01\06_comparaciondfracciones\testcomparaciondfracciones.cpp
+	<iostream>
+	<vector>
+	<class/EquivDFraciones.h>
+	<class/SumaDFracciones.h>
+	<class/ComparacionDFracciones.h>
+	<class/Fraccion.h>
+	<common.h>
+

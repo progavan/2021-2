@@ -26,9 +26,9 @@ int create_gif(std::string gifFileName,std::string laTeXexp)
   #endif // 1
   if(!CreateProcess(MIMETEX,str,0,0,0,0,0,0,&si,&pi)){
     /*Could not start process*/
-    std::cerr<<"Could not start process :-( "<<std::endl;
+    std::cerr<<"Could not start process in order to execute mimetex.exe :-( "<<std::endl;
     /** In case you see the message
-        "Could not start process :-( ",
+        "Could not start process in order to execute mimetex.exe :-( ",
         change the field Execution working dir:
         to the location of the executable file mimetex.exe
         i.e., in CodeBlocks:

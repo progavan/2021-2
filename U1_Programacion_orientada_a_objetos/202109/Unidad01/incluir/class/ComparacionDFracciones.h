@@ -10,6 +10,6 @@ public:
  std::string to_string();/** Codifica una cadena en \LaTeX
                              para mostrar en un archivo gif
                              la comparaci\'on de Fracciones.*/
- char get_rel();
+ char get_rel();     /** getter para rel */
 };
 #endif // COMPARACIONDFRACCIONES_H_INCLUDED

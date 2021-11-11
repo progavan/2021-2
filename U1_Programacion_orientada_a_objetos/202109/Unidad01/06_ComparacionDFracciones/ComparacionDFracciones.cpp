@@ -19,7 +19,7 @@ ComparacionDFracciones::ComparacionDFracciones(Fraccion *op1,
  }
 }
 
-/**Stub*/
+/** Devuelve cadena en LaTeX de una comparaci\'on de Fracciones */
 std::string ComparacionDFracciones::to_string()
 {
  char str[256];
@@ -33,7 +33,7 @@ std::string ComparacionDFracciones::to_string()
   }
   sprintf(str,"\\frac{%d}{%d}{%c}\\frac{%d}{%d}",
            F_op1->n,F_op1->d,
-            ,
+           r,
            F_op2->n,F_op2->d);
   return std::string(str);
 }
