@@ -23,7 +23,9 @@ ComparacionDFracciones::ComparacionDFracciones(Fraccion *op1,
 std::string ComparacionDFracciones::to_string()
 {
  char str[256];
+#if 0
  char r = '?';
+
  if ((get_rel())=='>') {
     r = '>';
   }else if ((get_rel())=='='){
@@ -35,6 +37,12 @@ std::string ComparacionDFracciones::to_string()
            F_op1->n,F_op1->d,
            r,
            F_op2->n,F_op2->d);
+#else
+  sprintf(str,"\\frac{%d}{%d}{%c}\\frac{%d}{%d}",
+           F_op1->n,F_op1->d,
+           rel,
+           F_op2->n,F_op2->d);
+#endif
   return std::string(str);
 }
 

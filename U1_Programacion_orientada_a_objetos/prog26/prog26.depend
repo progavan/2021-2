@@ -1,0 +1,23 @@
+# depslib dependency file v1.0
+1606401815 source:c:\users\lmc\2020\23_clases_ads_operacionesalgebralineal\prog26\src\directory_entry.cpp
+	"Directory_Entry.h"
+
+1606322694 c:\users\lmc\2020\23_clases_ads_operacionesalgebralineal\prog26\include\directory_entry.h
+	<iostream>
+
+1606402373 source:c:\users\lmc\2020\23_clases_ads_operacionesalgebralineal\prog26\main.cpp
+	<iostream>
+	<fstream>
+	<limits>
+	<cassert>
+	"Phone_Directory.h"
+
+1606324341 c:\users\lmc\2020\23_clases_ads_operacionesalgebralineal\prog26\include\phone_directory.h
+	<iostream>
+	"Directory_Entry.h"
+
+1606402112 source:c:\users\lmc\2020\23_clases_ads_operacionesalgebralineal\prog26\src\phone_directory.cpp
+	<fstream>
+	<cassert>
+	"Phone_Directory.h"
+
