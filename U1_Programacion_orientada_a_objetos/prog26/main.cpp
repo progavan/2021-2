@@ -1,5 +1,10 @@
 /** main.cpp - Aplicaci\'on del directorio
-telef\'onico que utiliza la consola I/O. */
+telef\'onico que utiliza la consola I/O.
+
+Para descargar solo un directorio de repositorio en github:
+https://downgit.github.io/#/
+
+*/
 #include <iostream>
 #include <fstream>
 #include <limits>
@@ -11,6 +16,7 @@ void process_commands(Phone_Directory&);
 void do_add_change_entry(Phone_Directory&);
 void do_lookup_entry(Phone_Directory&);
 void do_remove_entry(Phone_Directory&);
+void do_mostrar(Phone_Directory&);
 void do_save(Phone_Directory&);
 
 int main(int argc,char *argv[])
@@ -29,21 +35,35 @@ int main(int argc,char *argv[])
 
 void process_commands(Phone_Directory&
                       el_directorio){
+#if 0 //LMC 2021.11.16
   std::string commands[] = {
     "Agregar/Cambiar entrada",
     "Buscar entrada",
     "Borrar entrada",
     "Guardar directorio",
-    "Salir"
+    "Salir",
+    "Mostrar directorio"
   };
   const int NUM_COMMANDS = 5;
+ #else
+  char commands[][64] = {
+    "Agregar/Cambiar entrada",
+    "Buscar entrada",
+    "Borrar entrada",
+    "Mostrar directorio",
+    "Guardar directorio",
+    "Salir"
+  };
+  const int NUM_COMMANDS = (sizeof(commands)/sizeof(commands[0]));
+  assert(NUM_COMMANDS == 6);/** 2021.11.16 */
+ #endif // 0
   int opcion = NUM_COMMANDS - 1;
   do{
     cout << "\nDIRECTORIO TELEFONICO" << endl;
     for(int i=0;i<NUM_COMMANDS;i++){
       cout<<i<<" "<<commands[i]<<"\n";
     }
-    cout<<"Teclea una opcion (0,1,2,3,4): ";
+    cout<<"Teclea una opcion (0,1,2,3,4,5): ";
     cin >> opcion;
     cin.ignore(numeric_limits<int>::max(),'\n');
     switch(opcion){
@@ -56,10 +76,13 @@ void process_commands(Phone_Directory&
       case 2:{do_remove_entry(el_directorio);
               break;
       }
-      case 3:{do_save(el_directorio);
+      case 3:{do_mostrar(el_directorio);
               break;
       }
       case 4:{do_save(el_directorio);
+              break;
+      }
+      case 5:{do_save(el_directorio);
               break;
       }
     }
@@ -115,6 +138,11 @@ void do_remove_entry(
   }else{
     cout<<name<<" no est\\'a en el directorio.\n";
   }
+}
+
+void do_mostrar(Phone_Directory& el_directorio){
+  cout<<"CONTENIDO DEL DIRECTORIO\n";
+  el_directorio.mostrar();
 }
 
 void do_save(Phone_Directory& el_directorio){

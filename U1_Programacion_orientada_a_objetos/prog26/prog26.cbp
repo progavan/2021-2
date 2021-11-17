@@ -12,6 +12,7 @@
 				<Option object_output="obj/Debug/" />
 				<Option type="1" />
 				<Option compiler="gcc" />
+				<Option parameters='&quot;directorio.txt&quot;' />
 				<Compiler>
 					<Add option="-g" />
 					<Add directory="include" />
@@ -41,10 +42,6 @@
 		<Unit filename="main.cpp" />
 		<Unit filename="src/Directory_Entry.cpp" />
 		<Unit filename="src/Phone_Directory.cpp" />
-		<Extensions>
-			<code_completion />
-			<envvars />
-			<debugger />
-		</Extensions>
+		<Extensions />
 	</Project>
 </CodeBlocks_project_file>

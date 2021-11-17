@@ -12,6 +12,11 @@ Directory_Entry::Directory_Entry(
   this->number=number;
 }
 
+#if 1 //LMC 2021.11.16
+Directory_Entry::~Directory_Entry()
+{/**Deliberadamenete vac\'io*/}
+#endif // 1
+
 std::string Directory_Entry::get_name(){
   return name;
 }

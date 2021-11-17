@@ -1,5 +1,8 @@
 #include <fstream>
 #include <cassert>
+#if 1 //LMC 2021.11.16
+#include <iostream>
+#endif
 using namespace std;
 #include "Phone_Directory.h"
 /** Construir un directorio telef\'onico vacio*/
@@ -8,10 +11,18 @@ Phone_Directory::Phone_Directory()
     size = 0;
     capacity = 5;
     the_directory = new Directory_Entry[capacity];
+    //#if 1 //LMC 2021.11.16
+    #if 0 //LMC 2021.11.16
+    cout<<"the_directory has been initialized!\n";
+    #endif // 1
 }
 
 Phone_Directory::~Phone_Directory(){
+ #if 0 //LMC 2021.11.16
   delete the_directory;
+ #else
+  delete[] the_directory;
+ #endif // 0
 }
 
 /** Cargar el archivo de datos que contiene el
@@ -90,6 +101,15 @@ std::string Phone_Directory::lookup_entry(
   }
 }
 
+#if 1 //LMC 2021.11.16
+void Phone_Directory::mostrar(){
+  for(int i=0;i<size; i++){
+   std::cout<<the_directory[i].get_name()<<std::endl;
+   std::cout<<the_directory[i].get_number()<<std::endl;
+  }
+}
+#endif // 1
+
 /** Funci\'on para guardar el directorio.
 pre: el directorio ha sido cargado con datos
 post: el archivo de datos tiene nuevamente el
@@ -135,8 +155,9 @@ int Phone_Directory::find(const string& name_)const
 */
 void Phone_Directory::add(const std::string& name,
                       const std::string& number){
-  if(size == capacity) // If no room, reallocate
+  if(size == capacity) {// If no room, reallocate
     reallocate();
+  }
   // Incrementar size y agregar una nueva entrada.
   the_directory[size] =
                      Directory_Entry(name,number);
@@ -150,16 +171,31 @@ void Phone_Directory::add(const std::string& name,
 void Phone_Directory::reallocate(){
   // Duplicar la capacidad.
   capacity *= 2;
+  //#if 1 //LMC 2021.11.16
+  #if 0 //LMC 2021.11.16
+  cout<<"Phone_Directory::reallocate(): capacity="<<capacity<<"\n";
+  #endif // 1
   // Crear un nuevo arreglo del directorio.
   Directory_Entry *new_directory =
            new Directory_Entry[capacity];
+  //#if 1 //LMC 2021.11.16
+  #if 0 //LMC 2021.11.16
+  cout<<"P_D::reallocate(): capacity="<<capacity<<" size="
+      <<size<<"\n";
+  #endif // 1
   //Copiar el antiguo directorio al nuevo
   for(int i=0;i<size;i++){
     new_directory[i] = the_directory[i];
   }
   //Liberar la memoria ocupada por el
   //antiguo drectorio
+ #if 0 //LMC 2021.11.16.18.34
   delete the_directory;
+  assert(3==0);
+ #else
+  delete[] the_directory;
+ #endif // 0
+
   //Hacer que the_directory apunte al nuevo
   //directorio
   the_directory = new_directory;

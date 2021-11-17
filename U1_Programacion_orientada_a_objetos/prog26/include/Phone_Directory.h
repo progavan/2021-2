@@ -48,6 +48,9 @@ std::string add_or_change_entry(
             nombre en el directorio
 */
 std::string remove_entry(const std::string& name);
+#if 1 //LMC 2021.11.16
+void mostrar();
+#endif // 1
 /** Escribir el contenido del directorio en el
     archivo de datos
 */
