@@ -10,6 +10,7 @@ https://downgit.github.io/#/
 #include <limits>
 #include <cassert>
 #include "Phone_Directory.h"
+#define SIZE_ARR(arr)   ((sizeof(arr))/(sizeof(arr[0])))
 using namespace std;
 // Declaraci\'on de las funciones
 void process_commands(Phone_Directory&);
@@ -54,7 +55,7 @@ void process_commands(Phone_Directory&
     "Guardar directorio",
     "Salir"
   };
-  const int NUM_COMMANDS = (sizeof(commands)/sizeof(commands[0]));
+  const int NUM_COMMANDS = SIZE_ARR(commands);
   assert(NUM_COMMANDS == 6);/** 2021.11.16 */
  #endif // 0
   int opcion = NUM_COMMANDS - 1;
