@@ -146,7 +146,6 @@ int Phone_Directory::find(const string& name_)const
     }
   }
  #else
-//#define min(a,b)   (((a)<(b))?(a):(b))
   unsigned int siz = name_.length();
   unsigned int tsiz,j,sum=0;
   std::string tstr;
