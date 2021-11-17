@@ -50,3 +50,20 @@
 	<cassert>
 	"Phone_Directory.h"
 
+1637112877 source:/mnt/sda3/Users/LMC/2021/REPOS_2021/2MM4_PROG_AVAN_2021-2/REPO_progavan_2021-2/org_progavan/2021-2/U1_Programacion_orientada_a_objetos/prog26/main.cpp
+	<iostream>
+	<fstream>
+	<limits>
+	<cassert>
+	"Phone_Directory.h"
+
+1637112767 /mnt/sda3/Users/LMC/2021/REPOS_2021/2MM4_PROG_AVAN_2021-2/REPO_progavan_2021-2/org_progavan/2021-2/U1_Programacion_orientada_a_objetos/prog26/include/Phone_Directory.h
+	<iostream>
+	"Directory_Entry.h"
+
+1637108899 /mnt/sda3/Users/LMC/2021/REPOS_2021/2MM4_PROG_AVAN_2021-2/REPO_progavan_2021-2/org_progavan/2021-2/U1_Programacion_orientada_a_objetos/prog26/include/Directory_Entry.h
+	<iostream>
+
+1637108901 source:/mnt/sda3/Users/LMC/2021/REPOS_2021/2MM4_PROG_AVAN_2021-2/REPO_progavan_2021-2/org_progavan/2021-2/U1_Programacion_orientada_a_objetos/prog26/src/Directory_Entry.cpp
+	"Directory_Entry.h"
+

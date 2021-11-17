@@ -139,12 +139,42 @@ void Phone_Directory::save(){
 */
 int Phone_Directory::find(const string& name_)const
 {
+ #if 0 //LMC 2021.11.16
   for(int i=0;i<size;i++){
     if(the_directory[i].get_name() == name_){
-
       return i;
     }
   }
+ #else
+//#define min(a,b)   (((a)<(b))?(a):(b))
+  unsigned int siz = name_.length();
+  unsigned int tsiz,j,sum=0;
+  std::string tstr;
+
+  for(int i=0;i<size;i++){
+    tstr = the_directory[i].get_name();
+    tsiz = tstr.length();
+    if(tstr[tsiz-1] == 0x0d)
+      tsiz--;
+  //#if 1 //LMC 2021.11.16
+  #if 0 //LMC 2021.11.16
+    std::cout<<"siz="<<siz<<" tsiz="<<tsiz<<"\n";
+  #endif // 1
+    if(tsiz != siz){
+      continue;
+    }else{
+      for(j = 0;j < siz;j++){
+        if(tstr[j] == name_[j]) sum++;
+      }
+      if (sum == siz){
+        return i;
+      }else{
+        sum = 0;
+        continue;
+      }
+    }
+  }
+ #endif // 0
   return -1;
 }
 
@@ -171,18 +201,9 @@ void Phone_Directory::add(const std::string& name,
 void Phone_Directory::reallocate(){
   // Duplicar la capacidad.
   capacity *= 2;
-  //#if 1 //LMC 2021.11.16
-  #if 0 //LMC 2021.11.16
-  cout<<"Phone_Directory::reallocate(): capacity="<<capacity<<"\n";
-  #endif // 1
   // Crear un nuevo arreglo del directorio.
   Directory_Entry *new_directory =
            new Directory_Entry[capacity];
-  //#if 1 //LMC 2021.11.16
-  #if 0 //LMC 2021.11.16
-  cout<<"P_D::reallocate(): capacity="<<capacity<<" size="
-      <<size<<"\n";
-  #endif // 1
   //Copiar el antiguo directorio al nuevo
   for(int i=0;i<size;i++){
     new_directory[i] = the_directory[i];
