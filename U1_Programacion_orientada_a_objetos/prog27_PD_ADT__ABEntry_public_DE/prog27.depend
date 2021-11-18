@@ -1,0 +1,69 @@
+# depslib dependency file v1.0
+1606928213 source:c:\users\lmc\2020\23_clases_ads_operacionesalgebralineal\prog27\main.cpp
+	<iostream>
+	<fstream>
+	<limits>
+	<cassert>
+	"Phone_Directory.h"
+
+1606766298 ectory.h"
+
+1606927239 source:c:\users\lmc\2020\23_clases_ads_operacionesalgebralineal\prog27\src\abentry.cpp
+	"ABEntry.h"
+
+1606928213 "
+
+1606927239 c:\users\lmc\2020\23_clases_ads_operacionesalgebralineal\prog27\include\abentry.h
+	<Directory_Entry.h>
+
+1606927239 _Entry.h>
+
+1606930575 c:\users\lmc\2020\23_clases_ads_operacionesalgebralineal\prog27\include\directory_entry.h
+	<iostream>
+
+1606930575 
+
+1606755682 source:c:\users\lmc\2020\23_clases_ads_operacionesalgebralineal\prog27\src\directory_entry.cpp
+	"Directory_Entry.h"
+
+1606755682 _Entry.h"
+
+1606766298 source:c:\users\lmc\2020\23_clases_ads_operacionesalgebralineal\prog27\src\phone_directory.cpp
+	<fstream>
+	<cassert>
+	"Phone_Directory.h"
+
+1606928213 c:\users\lmc\2020\23_clases_ads_operacionesalgebralineal\prog27\include\phone_directory.h
+	<iostream>
+	"Directory_Entry.h"
+	"ABEntry.h"
+
+1637248299 source:/mnt/sda3/Users/LMC/2020/23_Clases_ADS_OperacionesAlgebraLineal/prog27/main.cpp
+	<iostream>
+	<fstream>
+	<limits>
+	<cassert>
+	"Phone_Directory.h"
+
+1637244231 /mnt/sda3/Users/LMC/2020/23_Clases_ADS_OperacionesAlgebraLineal/prog27/include/Phone_Directory.h
+	<iostream>
+	"Directory_Entry.h"
+	"ABEntry.h"
+
+1637244326 /mnt/sda3/Users/LMC/2020/23_Clases_ADS_OperacionesAlgebraLineal/prog27/include/Directory_Entry.h
+	<iostream>
+
+1637243467 /mnt/sda3/Users/LMC/2020/23_Clases_ADS_OperacionesAlgebraLineal/prog27/include/ABEntry.h
+	<Directory_Entry.h>
+
+1606927239 source:/mnt/sda3/Users/LMC/2020/23_Clases_ADS_OperacionesAlgebraLineal/prog27/src/ABEntry.cpp
+	"ABEntry.h"
+
+1637244548 source:/mnt/sda3/Users/LMC/2020/23_Clases_ADS_OperacionesAlgebraLineal/prog27/src/Directory_Entry.cpp
+	"Directory_Entry.h"
+
+1637247233 source:/mnt/sda3/Users/LMC/2020/23_Clases_ADS_OperacionesAlgebraLineal/prog27/src/Phone_Directory.cpp
+	<fstream>
+	<cassert>
+	"Phone_Directory.h"
+

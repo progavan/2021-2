@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="TimeSavingTechniquesForDummies" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/TimeSavingTechniquesForDummies" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="01_StringCoding">
+				<Option output="bin/01_StringCoding/TimeSavingTechniquesForDummies" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="bin/01_StringCoding/" />
+				<Option object_output="obj/01_StringCoding/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Option parameters='&quot;hello&quot;' />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="01_StringCoding/StringCoding.cpp" />
+		<Unit filename="01_StringCoding/ch1_1.cpp">
+			<Option target="01_StringCoding" />
+		</Unit>
+		<Unit filename="include/StringCoding.h" />
+		<Unit filename="main.cpp">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Extensions>
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

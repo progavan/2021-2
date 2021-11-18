@@ -43,7 +43,6 @@ void process_commands(Phone_Directory&
     "Borrar entrada",
     "Guardar directorio",
     "Salir",
-    "Mostrar directorio"
   };
   const int NUM_COMMANDS = 5;
  #else

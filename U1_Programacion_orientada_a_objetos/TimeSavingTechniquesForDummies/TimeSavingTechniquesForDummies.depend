@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1637127682 source:c:\users\lmc\2021\repos_2021\2mm4_prog_avan_2021-2\repo_progavan_2021-2\org_progavan\2021-2\u1_programacion_orientada_a_objetos\timesavingtechniquesfordummies\01_stringcoding\ch1_1.cpp
+	<iostream>
+	"../include/StringCoding.h"
+
+1637127711 c:\users\lmc\2021\repos_2021\2mm4_prog_avan_2021-2\repo_progavan_2021-2\org_progavan\2021-2\u1_programacion_orientada_a_objetos\timesavingtechniquesfordummies\include\stringcoding.h
+	<stdio.h>
+	<string>
+

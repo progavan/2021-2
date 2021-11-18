@@ -49,6 +49,7 @@ std::string add_or_change_entry(
 */
 std::string remove_entry(const std::string& name);
 #if 1 //LMC 2021.11.16
+/** Mostrar las entradas contenidas en el directorio */
 void mostrar();
 #endif // 1
 /** Escribir el contenido del directorio en el

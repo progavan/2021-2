@@ -1,0 +1,79 @@
+# depslib dependency file v1.0
+1606921543 source:c:\users\lmc\2020\23_clases_ads_operacionesalgebralineal\prog28\src\employee.cpp
+	<string>
+	<cstdlib>
+	<iostream>
+	"employee.h"
+
+1606923395 h"
+
+1606921256 c:\users\lmc\2020\23_clases_ads_operacionesalgebralineal\prog28\include\employee.h
+	<string>
+	<iostream>
+
+1606921256 
+
+1606923564 source:c:\users\lmc\2020\23_clases_ads_operacionesalgebralineal\prog28\src\hourlyemployee.cpp
+	<string>
+	<cstdlib>
+	<iostream>
+	"hourlyemployee.h"
+
+1606923564 loyee.h"
+
+1606921294 c:\users\lmc\2020\23_clases_ads_operacionesalgebralineal\prog28\include\hourlyemployee.h
+	<string>
+	"employee.h"
+
+1606923291 source:c:\users\lmc\2020\23_clases_ads_operacionesalgebralineal\prog28\src\salariedemployee.cpp
+	<iostream>
+	<string>
+	"salariedemployee.h"
+
+1606922780 mployee.h"
+
+1606923395 c:\users\lmc\2020\23_clases_ads_operacionesalgebralineal\prog28\include\salariedemployee.h
+	<string>
+	"employee.h"
+
+1606922780 source:c:\users\lmc\2020\23_clases_ads_operacionesalgebralineal\prog28\main.cpp
+	<conio.h>
+	<iostream>
+	"hourlyemployee.h"
+	"salariedemployee.h"
+
+1606922780 source:/mnt/sda3/Users/LMC/2020/23_Clases_ADS_OperacionesAlgebraLineal/prog28/main.cpp
+	<conio.h>
+	<iostream>
+	"hourlyemployee.h"
+	"salariedemployee.h"
+
+1637250769 /mnt/sda3/Users/LMC/2020/23_Clases_ADS_OperacionesAlgebraLineal/prog28/include/hourlyemployee.h
+	<string>
+	"Employee.h"
+
+1637250769 /mnt/sda3/Users/LMC/2020/23_Clases_ADS_OperacionesAlgebraLineal/prog28/include/salariedemployee.h
+	<string>
+	"Employee.h"
+
+1606921543 source:/mnt/sda3/Users/LMC/2020/23_Clases_ADS_OperacionesAlgebraLineal/prog28/src/Employee.cpp
+	<string>
+	<cstdlib>
+	<iostream>
+	"employee.h"
+
+1606923564 source:/mnt/sda3/Users/LMC/2020/23_Clases_ADS_OperacionesAlgebraLineal/prog28/src/hourlyemployee.cpp
+	<string>
+	<cstdlib>
+	<iostream>
+	"hourlyemployee.h"
+
+1606923291 source:/mnt/sda3/Users/LMC/2020/23_Clases_ADS_OperacionesAlgebraLineal/prog28/src/salariedemployee.cpp
+	<iostream>
+	<string>
+	"salariedemployee.h"
+
+1606921256 /mnt/sda3/Users/LMC/2020/23_Clases_ADS_OperacionesAlgebraLineal/prog28/include/Employee.h
+	<string>
+	<iostream>
+

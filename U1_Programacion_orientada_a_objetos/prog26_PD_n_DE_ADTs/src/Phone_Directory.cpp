@@ -153,8 +153,8 @@ int Phone_Directory::find(const string& name_)const
   for(int i=0;i<size;i++){
     tstr = the_directory[i].get_name();
     tsiz = tstr.length();
-    if(tstr[tsiz-1] == 0x0d)
-      tsiz--;
+    if(tstr[tsiz-1] == 0x0d)/** txt files saved on Windows have */
+      tsiz--;               /** 0x0d 0x0a  at the end of lines. */
   //#if 1 //LMC 2021.11.16
   #if 0 //LMC 2021.11.16
     std::cout<<"siz="<<siz<<" tsiz="<<tsiz<<"\n";
@@ -208,7 +208,7 @@ void Phone_Directory::reallocate(){
     new_directory[i] = the_directory[i];
   }
   //Liberar la memoria ocupada por el
-  //antiguo drectorio
+  //antiguo directorio
  #if 0 //LMC 2021.11.16.18.34
   delete the_directory;
   assert(3==0);
