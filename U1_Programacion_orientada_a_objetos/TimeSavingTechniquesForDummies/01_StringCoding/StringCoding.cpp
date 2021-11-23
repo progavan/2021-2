@@ -25,10 +25,34 @@ std::string StringCoding::Xor( const char *strIn )
 // the same.
 std::string StringCoding::Encode( const char *strIn )
 {
-return Xor( strIn );
+#if 0
+ return Xor( strIn );
+#else // Pages 10 and 11
+ std::string sOut = "";
+ for ( int i=0; i<(int)strlen(strIn); ++i )
+ {
+   char c = strIn[i];
+   c ++;
+   sOut += c;
 }
+return sOut;
+#endif
+}
+
 std::string StringCoding::Decode( const char *strIn )
 {
-return Xor( strIn );
+#if 0
+ return Xor( strIn );
+#else // Pages 10 and 11 of
+//(For dummies) Matthew Telles - C++ Timesaving Techniques For Dummies-Wiley (2005).pdf
+ std::string sOut = "";
+ for ( int i=0; i<(int)strlen(strIn); ++i )
+ {
+   char c = strIn[i];
+   c --;
+   sOut += c;
+ }
+ return sOut;
+#endif
 }
 

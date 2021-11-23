@@ -104,6 +104,7 @@ void display_gui(std::vector<std::string>& gifFile,int x0,int y0)
 
   SDL_DestroyRenderer(g_pRenderer);
   SDL_DestroyWindow(g_pWindow);
+  printf("Antes de (SDL2_Quit)...\n");
   //Clean up SDL
   SDL_Quit();
 }/*end display_gui()*/

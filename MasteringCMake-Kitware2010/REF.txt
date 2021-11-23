@@ -1,0 +1,4 @@
+Ken Martin_ Bill Hoffman - Mastering CMake-Kitware (2010).djvu
+Other book:
+Radovan Bast - CMake Cookbook-Packt (2018).epub
+
