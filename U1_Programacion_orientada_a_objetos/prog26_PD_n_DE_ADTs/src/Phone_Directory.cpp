@@ -238,6 +238,7 @@ std::string Phone_Directory ::
   }
   return str;
 }
+
 /**
   the_directory[] =
   { {Quincy,5511},{Mattew,5522},{Marcus,5533}   }

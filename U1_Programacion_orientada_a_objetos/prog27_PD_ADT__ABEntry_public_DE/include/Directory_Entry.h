@@ -9,7 +9,7 @@ public:
   Directory_Entry(std::string,std::string);
 #if 1 //LMC 2021.11.16
   ~Directory_Entry();
-#endif // 1  
+#endif // 1
   std::string get_name();
   std::string get_number();
   void set_name(std::string name);
