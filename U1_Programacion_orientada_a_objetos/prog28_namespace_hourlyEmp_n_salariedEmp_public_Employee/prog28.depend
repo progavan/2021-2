@@ -77,3 +77,38 @@
 	<string>
 	<iostream>
 
+1606922780 source:/mnt/sda3/Users/LMC/2021/REPOS_2021/2MM4_PROG_AVAN_2021-2/REPO_progavan_2021-2/org_progavan/2021-2/U1_Programacion_orientada_a_objetos/prog28_namespace_hourlyEmp_n_salariedEmp_public_Employee/main.cpp
+	<conio.h>
+	<iostream>
+	"hourlyemployee.h"
+	"salariedemployee.h"
+
+1637250769 /mnt/sda3/Users/LMC/2021/REPOS_2021/2MM4_PROG_AVAN_2021-2/REPO_progavan_2021-2/org_progavan/2021-2/U1_Programacion_orientada_a_objetos/prog28_namespace_hourlyEmp_n_salariedEmp_public_Employee/include/hourlyemployee.h
+	<string>
+	"Employee.h"
+
+1606921256 /mnt/sda3/Users/LMC/2021/REPOS_2021/2MM4_PROG_AVAN_2021-2/REPO_progavan_2021-2/org_progavan/2021-2/U1_Programacion_orientada_a_objetos/prog28_namespace_hourlyEmp_n_salariedEmp_public_Employee/include/Employee.h
+	<string>
+	<iostream>
+
+1637250769 /mnt/sda3/Users/LMC/2021/REPOS_2021/2MM4_PROG_AVAN_2021-2/REPO_progavan_2021-2/org_progavan/2021-2/U1_Programacion_orientada_a_objetos/prog28_namespace_hourlyEmp_n_salariedEmp_public_Employee/include/salariedemployee.h
+	<string>
+	"Employee.h"
+
+1637250889 source:/mnt/sda3/Users/LMC/2021/REPOS_2021/2MM4_PROG_AVAN_2021-2/REPO_progavan_2021-2/org_progavan/2021-2/U1_Programacion_orientada_a_objetos/prog28_namespace_hourlyEmp_n_salariedEmp_public_Employee/src/Employee.cpp
+	<string>
+	<cstdlib>
+	<iostream>
+	"Employee.h"
+
+1606923564 source:/mnt/sda3/Users/LMC/2021/REPOS_2021/2MM4_PROG_AVAN_2021-2/REPO_progavan_2021-2/org_progavan/2021-2/U1_Programacion_orientada_a_objetos/prog28_namespace_hourlyEmp_n_salariedEmp_public_Employee/src/hourlyemployee.cpp
+	<string>
+	<cstdlib>
+	<iostream>
+	"hourlyemployee.h"
+
+1606923291 source:/mnt/sda3/Users/LMC/2021/REPOS_2021/2MM4_PROG_AVAN_2021-2/REPO_progavan_2021-2/org_progavan/2021-2/U1_Programacion_orientada_a_objetos/prog28_namespace_hourlyEmp_n_salariedEmp_public_Employee/src/salariedemployee.cpp
+	<iostream>
+	<string>
+	"salariedemployee.h"
+

@@ -2,84 +2,14 @@
 <CodeBlocks_layout_file>
 	<FileVersion major="1" minor="0" />
 	<ActiveTarget name="07_Util" />
-	<File name="07_Util/Test_Util.cpp" open="1" top="0" tabpos="1" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="0" topLine="16" />
-		</Cursor>
-	</File>
-	<File name="02_metodos/mcd.cpp" open="0" top="0" tabpos="6" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="291" topLine="6" />
-		</Cursor>
-	</File>
-	<File name="incluir/common.h" open="0" top="0" tabpos="5" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="334" topLine="3" />
-		</Cursor>
-	</File>
-	<File name="04_Suma_DFraciones/TestSumaDFracciones.cpp" open="0" top="0" tabpos="2" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="1477" topLine="45" />
-		</Cursor>
-	</File>
-	<File name="incluir/CDummy.h" open="0" top="0" tabpos="1" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="131" topLine="0" />
-		</Cursor>
-	</File>
-	<File name="02_metodos/TestMetodos.cpp" open="1" top="0" tabpos="2" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="1617" topLine="29" />
-		</Cursor>
-	</File>
-	<File name="01_constructores/TestFraccion.cpp" open="0" top="0" tabpos="1" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="1226" topLine="25" />
-		</Cursor>
-	</File>
-	<File name="05_SumaAlg_DFracciones/TestSumaAlgDFracciones.cpp" open="0" top="0" tabpos="7" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="503" topLine="13" />
-		</Cursor>
-	</File>
-	<File name="incluir/class/EquivDFraciones.h" open="0" top="0" tabpos="1" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="211" topLine="4" />
-		</Cursor>
-	</File>
 	<File name="incluir/Fraccion.h" open="0" top="0" tabpos="2" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
 			<Cursor1 position="626" topLine="6" />
 		</Cursor>
 	</File>
-	<File name="06_ComparacionDFracciones/TestComparacionDFracciones.cpp" open="0" top="0" tabpos="2" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+	<File name="07_Util/Test_Util.cpp" open="0" top="0" tabpos="1" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="689" topLine="12" />
-		</Cursor>
-	</File>
-	<File name="03_class_Fraccion/dispgiffiles.cpp" open="1" top="0" tabpos="3" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="3066" topLine="84" />
-		</Cursor>
-	</File>
-	<File name="06_ComparacionDFracciones/ComparacionDFracciones.cpp" open="0" top="0" tabpos="3" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="483" topLine="22" />
-		</Cursor>
-	</File>
-	<File name="01_constructores/Fraccion.cpp" open="0" top="0" tabpos="1" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="3105" topLine="119" />
-		</Cursor>
-	</File>
-	<File name="03_class_Fraccion/usemimetex.cpp" open="0" top="0" tabpos="4" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="670" topLine="0" />
-		</Cursor>
-	</File>
-	<File name="03_class_Fraccion/TestEquivDFracciones.cpp" open="0" top="0" tabpos="2" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="323" topLine="12" />
+			<Cursor1 position="0" topLine="25" />
 		</Cursor>
 	</File>
 	<File name="03_class_Fraccion/EquivDFraciones.cpp" open="0" top="0" tabpos="3" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
@@ -87,14 +17,84 @@
 			<Cursor1 position="424" topLine="8" />
 		</Cursor>
 	</File>
+	<File name="incluir/class/ComparacionDFracciones.h" open="0" top="0" tabpos="4" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="591" topLine="1" />
+		</Cursor>
+	</File>
+	<File name="01_constructores/TestFraccion.cpp" open="0" top="0" tabpos="1" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1226" topLine="25" />
+		</Cursor>
+	</File>
+	<File name="incluir/class/EquivDFraciones.h" open="0" top="0" tabpos="1" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="211" topLine="4" />
+		</Cursor>
+	</File>
+	<File name="03_class_Fraccion/TestEquivDFracciones.cpp" open="0" top="0" tabpos="2" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="323" topLine="12" />
+		</Cursor>
+	</File>
+	<File name="05_SumaAlg_DFracciones/TestSumaAlgDFracciones.cpp" open="0" top="0" tabpos="7" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="503" topLine="13" />
+		</Cursor>
+	</File>
+	<File name="incluir/CDummy.h" open="0" top="0" tabpos="1" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="131" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="02_metodos/TestMetodos.cpp" open="0" top="0" tabpos="2" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1617" topLine="29" />
+		</Cursor>
+	</File>
+	<File name="01_constructores/Fraccion.cpp" open="0" top="0" tabpos="1" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="3105" topLine="119" />
+		</Cursor>
+	</File>
+	<File name="02_metodos/mcd.cpp" open="0" top="0" tabpos="6" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="291" topLine="6" />
+		</Cursor>
+	</File>
+	<File name="incluir/class/SumaDFracciones.h" open="0" top="0" tabpos="8" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="444" topLine="4" />
+		</Cursor>
+	</File>
+	<File name="incluir/common.h" open="0" top="0" tabpos="5" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="334" topLine="3" />
+		</Cursor>
+	</File>
+	<File name="06_ComparacionDFracciones/TestComparacionDFracciones.cpp" open="0" top="0" tabpos="2" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="689" topLine="12" />
+		</Cursor>
+	</File>
+	<File name="03_class_Fraccion/usemimetex.cpp" open="0" top="0" tabpos="4" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="670" topLine="0" />
+		</Cursor>
+	</File>
 	<File name="incluir/class/Fraccion.h" open="0" top="0" tabpos="6" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
 			<Cursor1 position="1844" topLine="43" />
 		</Cursor>
 	</File>
-	<File name="incluir/class/ComparacionDFracciones.h" open="0" top="0" tabpos="4" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+	<File name="06_ComparacionDFracciones/ComparacionDFracciones.cpp" open="0" top="0" tabpos="3" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="591" topLine="1" />
+			<Cursor1 position="483" topLine="22" />
+		</Cursor>
+	</File>
+	<File name="03_class_Fraccion/dispgiffiles.cpp" open="0" top="0" tabpos="3" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="3066" topLine="0" />
 		</Cursor>
 	</File>
 	<File name="04_Suma_DFraciones/SumaDFracciones.cpp" open="0" top="0" tabpos="5" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
@@ -102,9 +102,9 @@
 			<Cursor1 position="1600" topLine="45" />
 		</Cursor>
 	</File>
-	<File name="incluir/class/SumaDFracciones.h" open="0" top="0" tabpos="8" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+	<File name="04_Suma_DFraciones/TestSumaDFracciones.cpp" open="0" top="0" tabpos="2" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="444" topLine="4" />
+			<Cursor1 position="1477" topLine="45" />
 		</Cursor>
 	</File>
 </CodeBlocks_layout_file>
