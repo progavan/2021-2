@@ -46,9 +46,11 @@ void FnAmigaDeDerivada(){
 int main()
 {
   Derivada objD;
-  //objD.mPrivadoDeBase();  //OK
-  //objD.mProtegidoDeBase();//OK
+  //objD.mPrivadoDeBase();  //ERROR
+  //objD.mProtegidoDeBase();//ERROR
   objD.mPublicoDeBase();  //OK
+  //FnAmigaDeBase(); //OK
+  //FnAmigaDeDerivada();
   return 0;
 }
 #endif // FUNCIONES_AMIGAS
