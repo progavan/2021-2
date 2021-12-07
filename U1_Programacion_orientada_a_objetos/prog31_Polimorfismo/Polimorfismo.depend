@@ -1,0 +1,57 @@
+# depslib dependency file v1.0
+1637719922 source:/mnt/sda3/Users/LMC/2021/REPOS_2021/2MM4_PROG_AVAN_2021-2/REPO_progavan_2021-2/org_progavan/2021-2/U1_Programacion_orientada_a_objetos/prog31_Polimorfismo/banco.cpp
+	<iostream>
+	<string>
+	<vector>
+	"banco.h"
+
+1637719922 /mnt/sda3/Users/LMC/2021/REPOS_2021/2MM4_PROG_AVAN_2021-2/REPO_progavan_2021-2/org_progavan/2021-2/U1_Programacion_orientada_a_objetos/prog31_Polimorfismo/banco.h
+	"cuenta.h"
+
+1638483569 /mnt/sda3/Users/LMC/2021/REPOS_2021/2MM4_PROG_AVAN_2021-2/REPO_progavan_2021-2/org_progavan/2021-2/U1_Programacion_orientada_a_objetos/prog31_Polimorfismo/cuenta.h
+	<string>
+
+1637719922 source:/mnt/sda3/Users/LMC/2021/REPOS_2021/2MM4_PROG_AVAN_2021-2/REPO_progavan_2021-2/org_progavan/2021-2/U1_Programacion_orientada_a_objetos/prog31_Polimorfismo/cuenta.cpp
+	<iostream>
+	"cuenta.h"
+
+1637719922 source:/mnt/sda3/Users/LMC/2021/REPOS_2021/2MM4_PROG_AVAN_2021-2/REPO_progavan_2021-2/org_progavan/2021-2/U1_Programacion_orientada_a_objetos/prog31_Polimorfismo/cuenta_ahorro.cpp
+	<iostream>
+	"cuenta_ahorro.h"
+	"fecha.h"
+
+1637719922 /mnt/sda3/Users/LMC/2021/REPOS_2021/2MM4_PROG_AVAN_2021-2/REPO_progavan_2021-2/org_progavan/2021-2/U1_Programacion_orientada_a_objetos/prog31_Polimorfismo/cuenta_ahorro.h
+	"cuenta.h"
+
+1637719922 /mnt/sda3/Users/LMC/2021/REPOS_2021/2MM4_PROG_AVAN_2021-2/REPO_progavan_2021-2/org_progavan/2021-2/U1_Programacion_orientada_a_objetos/prog31_Polimorfismo/fecha.h
+
+1637719922 source:/mnt/sda3/Users/LMC/2021/REPOS_2021/2MM4_PROG_AVAN_2021-2/REPO_progavan_2021-2/org_progavan/2021-2/U1_Programacion_orientada_a_objetos/prog31_Polimorfismo/cuenta_corriente+.cpp
+	<iostream>
+	"cuenta_corriente+.h"
+	"fecha.h"
+
+1637719922 /mnt/sda3/Users/LMC/2021/REPOS_2021/2MM4_PROG_AVAN_2021-2/REPO_progavan_2021-2/org_progavan/2021-2/U1_Programacion_orientada_a_objetos/prog31_Polimorfismo/cuenta_corriente+.h
+	"cuenta_corriente.h"
+
+1637719922 /mnt/sda3/Users/LMC/2021/REPOS_2021/2MM4_PROG_AVAN_2021-2/REPO_progavan_2021-2/org_progavan/2021-2/U1_Programacion_orientada_a_objetos/prog31_Polimorfismo/cuenta_corriente.h
+	"cuenta.h"
+
+1637719922 source:/mnt/sda3/Users/LMC/2021/REPOS_2021/2MM4_PROG_AVAN_2021-2/REPO_progavan_2021-2/org_progavan/2021-2/U1_Programacion_orientada_a_objetos/prog31_Polimorfismo/cuenta_corriente.cpp
+	<iostream>
+	"cuenta_corriente.h"
+	"fecha.h"
+
+1637719922 source:/mnt/sda3/Users/LMC/2021/REPOS_2021/2MM4_PROG_AVAN_2021-2/REPO_progavan_2021-2/org_progavan/2021-2/U1_Programacion_orientada_a_objetos/prog31_Polimorfismo/fecha.cpp
+	<iostream>
+	"ctime"
+	"fecha.h"
+
+1637719922 source:/mnt/sda3/Users/LMC/2021/REPOS_2021/2MM4_PROG_AVAN_2021-2/REPO_progavan_2021-2/org_progavan/2021-2/U1_Programacion_orientada_a_objetos/prog31_Polimorfismo/test.cpp
+	<iostream>
+	<vector>
+	<limits>
+	"banco.h"
+	"cuenta_ahorro.h"
+	"cuenta_corriente.h"
+	"cuenta_corriente+.h"
+

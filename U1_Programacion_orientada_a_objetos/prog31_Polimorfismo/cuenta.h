@@ -12,7 +12,7 @@ class CCuenta
     std::string cuenta;
     double saldo;
     double tipoDeInteres;
-  
+
   // Métodos
   public:
     CCuenta(std::string nom = "sin nombre", std::string cue = "0000",
@@ -25,14 +25,14 @@ class CCuenta
     bool asignarCuenta(std::string cue);
     std::string obtenerCuenta() const;
     double estado() const;
-    virtual void comisiones() = 0;
-    virtual double intereses() = 0;
-    bool ingreso(double cantidad);
+    virtual void comisiones() = 0;  /** pure virtual method */
+    virtual double intereses() = 0; /** pure virtual method */
+    bool ingreso(double cantidad);/** => class CCuenta is abstract */
     void reintegro(double cantidad);
     double obtenerTipoDeInteres() const;
     bool asignarTipoDeInteres(double tipo);
     virtual CCuenta *clonar() = 0;
-};
+};/*end class CCuenta*/
 
-#endif // _CUENTA_H_ 
+#endif // _CUENTA_H_
 
