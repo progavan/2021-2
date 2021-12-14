@@ -1,3 +1,4 @@
+/** TestMailingList.cpp */
 void ProcessEntries( BaseMailingListEntry *pEntry )
 {
  bool not_done = pEntry->First();

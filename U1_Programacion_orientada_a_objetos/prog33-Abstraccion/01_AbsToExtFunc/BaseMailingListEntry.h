@@ -54,7 +54,7 @@ void setState(const char *strState)
 { sState = strState; };
 void setZipCode( const char *strZipCode )
 { sZipCode = strZipCode; };
-};
+};//end class BaseMailingListEntry
 
 
 
