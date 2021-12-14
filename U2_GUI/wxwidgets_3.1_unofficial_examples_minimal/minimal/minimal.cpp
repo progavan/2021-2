@@ -81,7 +81,7 @@ enum
 
     // it is important for the id corresponding to the "About" command to have
     // this standard value as otherwise it won't be handled properly under Mac
-    // (where it is special and put into the "Apple" menu)
+    // (where it is special and put into the MyApp"Apple" menu)
     Minimal_About = wxID_ABOUT
 };
 

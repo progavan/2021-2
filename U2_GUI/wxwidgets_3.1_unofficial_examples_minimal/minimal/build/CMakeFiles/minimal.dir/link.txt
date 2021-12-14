@@ -1,0 +1,1 @@
+/usr/bin/c++  -pthread -rdynamic CMakeFiles/minimal.dir/minimal.cpp.o -o minimal  -L/usr/lib/x86_64-linux-gnu -pthread -lwx_gtk3u_unofficial_core-3.1 -lwx_baseu_unofficial-3.1 
