@@ -1,0 +1,18 @@
+# depslib dependency file v1.0
+1641092074 source:/mnt/sda3/Users/LMC/2021/REPOS_2021/2MM4_PROG_AVAN_2021-2/REPO_progavan_2021-2/org_progavan/2021-2/U1_Programacion_orientada_a_objetos/prog33-Abstraccion/01_AbsToExtFunc/TestMailingList.cpp
+	<stdio.h>
+	<string.h>
+	"BaseMailingListEntry.h"
+	"FileMailingListEntry.h"
+	"CommandLineMailingListEntry.h"
+
+1641089500 /mnt/sda3/Users/LMC/2021/REPOS_2021/2MM4_PROG_AVAN_2021-2/REPO_progavan_2021-2/org_progavan/2021-2/U1_Programacion_orientada_a_objetos/prog33-Abstraccion/01_AbsToExtFunc/BaseMailingListEntry.h
+	<string>
+	<iostream>
+	<stdio.h>
+
+1641091477 /mnt/sda3/Users/LMC/2021/REPOS_2021/2MM4_PROG_AVAN_2021-2/REPO_progavan_2021-2/org_progavan/2021-2/U1_Programacion_orientada_a_objetos/prog33-Abstraccion/01_AbsToExtFunc/FileMailingListEntry.h
+
+1641091678 /mnt/sda3/Users/LMC/2021/REPOS_2021/2MM4_PROG_AVAN_2021-2/REPO_progavan_2021-2/org_progavan/2021-2/U1_Programacion_orientada_a_objetos/prog33-Abstraccion/01_AbsToExtFunc/CommandLineMailingListEntry.h
+	"BaseMailingListEntry.h"
+

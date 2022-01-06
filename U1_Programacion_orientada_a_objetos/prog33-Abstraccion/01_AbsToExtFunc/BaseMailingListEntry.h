@@ -3,6 +3,9 @@
 #include <string>
 #include <iostream>
 #include <stdio.h>
+#define MAXLINE 1000    /* maximum input line length */
+int KnR_getline(char line[], int maxline);
+
 class BaseMailingListEntry
 {
 private:

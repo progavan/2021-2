@@ -1,0 +1,12 @@
+                                                           S\'abado 1 de enero de 2022
+El archivo 
+02_ch_abstraction.cpp
+contiene el c\'odigo (corregido) del ejemplo del cap\'itulo 2 del libro 
+(For dummies) Matthew Telles - C++ Time Saving Techniques For Dummies-Wiley (2005).pdf
+
+El archivo ejecutable creado a partir de
+02_ch_aux.cpp
+se us\'o para crear el archivo binario 
+contactos.raw
+
+

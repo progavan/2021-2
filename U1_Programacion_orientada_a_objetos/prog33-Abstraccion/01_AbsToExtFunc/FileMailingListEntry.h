@@ -6,7 +6,7 @@ FILE *fpIn;
 public:
 FileMailingListEntry( const char *strFileName )
 {
-fpIn = fopen(strFileName, “r”);
+fpIn = fopen(strFileName, "r");
 }
 virtual bool ReadEntry(void)
 {
@@ -15,6 +15,9 @@ fread( szBuffer, sizeof(char),255, fpIn );
 if ( feof(fpIn) )
   return false;
 setFirstName( szBuffer );
+ #if 1 //LMC 2021.12.29
+  printf("\n%s\n",szBuffer);
+ #endif
 fread( szBuffer, sizeof(char),255, fpIn );
 setFirstName( szBuffer );
 fread( szBuffer, sizeof(char),255, fpIn );
