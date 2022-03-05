@@ -1,0 +1,39 @@
+config HELLO_WORLD
+    bool "Ejemplo 'Hola Mundo' en C++"
+    default y
+    help
+      Se configura el proyecto de tal mamnera que se incluye la funci\'on main 
+      de un programa "Hola Mundo" de lenguaje C++.
+
+config CLASES_SIN_SECCIONES_PRIVADAS
+    bool "ClaseSinSeccionesPrivadas.cpp utiliza la clase struct msg."
+    default n
+    help
+      Se selecciona el programa que utiliza la clase struct msg, declarada en struct_msg.h
+
+config SOBRECARGA_VERS_A
+    bool "Versi\'on A de la sobrecarga del operador + para struct msg"
+    depends on CLASES_SIN_SECCIONES_PRIVADAS
+    help
+      Se selecciona la vers\'on A de la sobrecarga del operador + para struct msg.
+
+config SOBRECARGA_VERS_B
+    bool "Versi\'on B de la sobrecarga del operador + para struct msg"
+    depends on CLASES_SIN_SECCIONES_PRIVADAS
+    help
+      Se selecciona la vers\'on B de la sobrecarga del operador + para struct msg.
+
+config SOBRECARGA_VERS_C
+    bool "Versi\'on C de la sobrecarga del operador + para struct msg"
+    depends on CLASES_SIN_SECCIONES_PRIVADAS
+    help
+      Se selecciona la vers\'on C de la sobrecarga del operador + para struct msg. En esta 
+      versi\'on de 
+      struct msg *operator+(struct_msg rhs), 
+      y de 
+      bool is_element(std::string), 
+      se utiliza el m\'etodo 
+      std::vector<std::string> tokenizing_w_r_t(char c), 
+      el cual proporciona un ejemplo de abstracci\'on de operaciones.
+
+

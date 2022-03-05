@@ -41,6 +41,19 @@
 					<Add option="-s" />
 				</Linker>
 			</Target>
+			<Target title="02_ch_aux">
+				<Option output="bin/02_ch_aux/prog33-Abstraccion" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="bin/02_ch_aux/" />
+				<Option object_output="obj/02_ch_aux/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
 		</Build>
 		<Compiler>
 			<Add option="-Wall" />
@@ -61,6 +74,9 @@
 		<Unit filename="00_FigsGeom/Triangulo.h">
 			<Option target="00_FigurasGeometricas" />
 		</Unit>
+		<Unit filename="01_AbsToExtFunc/02_ch_abstraction/02_ch_aux.cpp">
+			<Option target="02_ch_aux" />
+		</Unit>
 		<Unit filename="01_AbsToExtFunc/BaseMailingListEntry.h">
 			<Option target="01_AbsToExtFunc" />
 		</Unit>
@@ -75,6 +91,13 @@
 		</Unit>
 		<Unit filename="main.cpp">
 			<Option target="Debug" />
+		</Unit>
+		<Unit filename="prog33-Abstraccion_util.cpp">
+			<Option target="01_AbsToExtFunc" />
+			<Option target="02_ch_aux" />
+		</Unit>
+		<Unit filename="prog33-Abstraccion_util.h">
+			<Option target="01_AbsToExtFunc" />
 		</Unit>
 		<Extensions />
 	</Project>

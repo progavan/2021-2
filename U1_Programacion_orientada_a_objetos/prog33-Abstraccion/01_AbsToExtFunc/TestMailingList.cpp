@@ -4,6 +4,7 @@
 #include "BaseMailingListEntry.h"
 #include "FileMailingListEntry.h"
 #include "CommandLineMailingListEntry.h"
+#include "../prog33-Abstraccion_util.h"
 
 void ProcessEntries( BaseMailingListEntry *pEntry )
 {
@@ -42,6 +43,8 @@ int main(int argc, char **argv)
 #if 1 // LMC 2021.12.26
  char linea[MAXLINE];
 #endif
+ print_ident_data(__FILE__,argv[0]);
+ printf("\n");
  printf("Enter 1 to use a file-based mailing list\n");
  printf("Enter 2 to enter data from the command line\n");
 #if 0 // LMC 2021.12.26

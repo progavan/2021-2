@@ -16,3 +16,13 @@
 1641091678 /mnt/sda3/Users/LMC/2021/REPOS_2021/2MM4_PROG_AVAN_2021-2/REPO_progavan_2021-2/org_progavan/2021-2/U1_Programacion_orientada_a_objetos/prog33-Abstraccion/01_AbsToExtFunc/CommandLineMailingListEntry.h
 	"BaseMailingListEntry.h"
 
+1646360195 source:/mnt/sda3/Users/LMC/2021/REPOS_2021/2MM4_PROG_AVAN_2021-2/REPO_progavan_2021-2/org_progavan/2021-2/U1_Programacion_orientada_a_objetos/prog33-Abstraccion/prog33-Abstraccion_util.cpp
+	<cstdio>
+
+1646416594 source:/mnt/sda3/Users/LMC/2021/REPOS_2021/2MM4_PROG_AVAN_2021-2/REPO_progavan_2021-2/org_progavan/2021-2/U1_Programacion_orientada_a_objetos/prog33-Abstraccion/01_AbsToExtFunc/02_ch_abstraction/02_ch_aux.cpp
+	<iostream>
+	<stdio.h>
+	"../../prog33-Abstraccion_util.h"
+
+1646414958 /mnt/sda3/Users/LMC/2021/REPOS_2021/2MM4_PROG_AVAN_2021-2/REPO_progavan_2021-2/org_progavan/2021-2/U1_Programacion_orientada_a_objetos/prog33-Abstraccion/prog33-Abstraccion_util.h
+
