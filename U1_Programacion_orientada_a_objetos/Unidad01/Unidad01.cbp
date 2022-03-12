@@ -13,7 +13,6 @@
 				<Option compiler="gcc" />
 				<Compiler>
 					<Add option="-O2" />
-					<Add option="-fexceptions" />
 					<Add option="-include include/generated/autoconf.h" />
 				</Compiler>
 				<Linker>
@@ -25,10 +24,23 @@
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
+		<Unit filename="Calendario.cpp" />
+		<Unit filename="Calendario.h" />
 		<Unit filename="ClaseSinSeccionesPrivadas.cpp" />
+		<Unit filename="DiasTranscurridos.cpp" />
+		<Unit filename="DiasTranscurridos_1.cpp" />
+		<Unit filename="Fecha.cpp" />
+		<Unit filename="Fecha.h" />
+		<Unit filename="Kconfig" />
+		<Unit filename="Makefile" />
 		<Unit filename="Unidad01_util.cpp" />
 		<Unit filename="Unidad01_util.h" />
+		<Unit filename="bubbles.cpp" />
+		<Unit filename="cal.cpp" />
+		<Unit filename="gettingdate.cpp" />
+		<Unit filename="gettingdate.h" />
 		<Unit filename="main.cpp" />
+		<Unit filename="mainDisposalRecords2022.cpp" />
 		<Unit filename="struct_msg.cpp" />
 		<Unit filename="struct_msg.h" />
 		<Extensions />

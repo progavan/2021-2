@@ -86,7 +86,7 @@ struct msg *struct_msg :: operator +(struct msg rhs){
 bool struct_msg :: is_element(std::string email)
 {
  // Tokenizing mensaje w.r.t. ','
- std::vector<std::string> vec_token = tokenizing_w_r_t(',');
+ std::vector<std::string> vec_token = (*this).tokenizing_w_r_t(',');
  /**Ahora en vec_token tenemos los correos*/
  for (unsigned int i=0;i<vec_token.size();i++){
    /** ?`es email igual al correo vec_token[i]? */

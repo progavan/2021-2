@@ -1,0 +1,16 @@
+                                  Wednesday march 8, 2022
+
+https://github.com/zmj64351508/cbvike
+
+How I actually arrived to that page?
+Answer:
+https://wiki.codeblocks.org/index.php/Main_Page
+
+https://wiki.codeblocks.org/index.php/Code::Blocks_Plugins
+
+https://wiki.codeblocks.org/index.php/Vim_emulator_plugin
+
+and finally
+
+https://github.com/zmj64351508/cbvike
+

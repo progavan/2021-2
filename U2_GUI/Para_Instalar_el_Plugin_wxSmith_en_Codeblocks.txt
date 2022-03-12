@@ -1,0 +1,18 @@
+                                          Wednesday march 8, 2022
+
+Para instalar el plugin wxSmith 
+                                simply install codeblocks-contrib 
+from your default repository.
+
+REF.
+https://wiki.codeblocks.org/index.php/WxSmith_plugin
+
+wxSmith is a Code::Blocks plugin for RAD editing of 
+wxWidgets applications.
+
+To install wxSmith on Linux if it is not already, simply install 
+codebocks-contrib from your default repository (such as Ubuntu 
+Software Center). This works even if you installed Code::Blocks 
+from a 3rd party repository. 
+
+
