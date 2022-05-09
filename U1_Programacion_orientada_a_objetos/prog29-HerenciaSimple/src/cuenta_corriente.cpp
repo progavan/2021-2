@@ -41,9 +41,10 @@ bool CCuentaCorriente::asignarTransExentas(int transex)
 {
   if (transex >= 0)
     transExentas = transex;
-  else
+  else{
     cout << "Error: cantidad negativa\n";
-    return transex >= 0;
+  }
+  return transex >= 0;
 }
 
 int CCuentaCorriente::obtenerTransExentas() const
@@ -80,7 +81,8 @@ double CCuentaCorriente::intereses()
 {
   int dia, mes, anyo;
   CFecha::obtenerFechaActual(dia, mes, anyo);
-  if (dia != 1) return 0.0;
+  //if (dia != 1) return 0.0;
+  if (dia != FECHA_CORTE) return 0.0;
 
   // Acumular los intereses por mes sólo los días 1 de cada mes
   double interesesProducidos = 0.0;
@@ -92,6 +94,7 @@ double CCuentaCorriente::intereses()
     interesesProducidos = 3000 * 0.5 / 1200.0 +
           (estado() - 3000) * obtenerTipoDeInteres() / 1200.0;
   }
+  std::cout<<"(CCuentaCorriente) InteresesProducidos > 0 :-)\n";
   ingreso(interesesProducidos);
   // Este ingreso no debe incrementar las transacciones
   decrementarTransacciones();

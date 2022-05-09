@@ -3,6 +3,7 @@
 #if !defined( _CUENTA_H_ )
 #define _CUENTA_H_
 #include <string>
+#define FECHA_CORTE 1
 
 class CCuenta
 {

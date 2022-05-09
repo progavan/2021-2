@@ -1,0 +1,18 @@
+# depslib dependency file v1.0
+1649916425 source:/mnt/sda3/Users/LMC/2021/REPOS_2021/2MM4_PROG_AVAN_2021-2/REPO_progavan_2021-2/org_progavan/2021-2/LoadFormat/showtabla.cpp
+	<stdlib.h>
+	<string.h>
+	"Horario.h"
+	"../U2_GUI/CodeblocksWorkspaceEleccionDCargaAcademica/01_IsGroupCompatibleWithThisHorario/Horario.h"
+
+1648163531 /mnt/sda3/Users/LMC/2021/REPOS_2021/2MM4_PROG_AVAN_2021-2/REPO_progavan_2021-2/org_progavan/2021-2/U2_GUI/CodeblocksWorkspaceEleccionDCargaAcademica/01_IsGroupCompatibleWithThisHorario/Horario.h
+	<cstdio>
+	"Grupo.h"
+
+1647562612 /mnt/sda3/Users/LMC/2021/REPOS_2021/2MM4_PROG_AVAN_2021-2/REPO_progavan_2021-2/org_progavan/2021-2/U2_GUI/CodeblocksWorkspaceEleccionDCargaAcademica/01_IsGroupCompatibleWithThisHorario/Grupo.h
+	<vector>
+	"Sesion.h"
+
+1649895265 /mnt/sda3/Users/LMC/2021/REPOS_2021/2MM4_PROG_AVAN_2021-2/REPO_progavan_2021-2/org_progavan/2021-2/U2_GUI/CodeblocksWorkspaceEleccionDCargaAcademica/01_IsGroupCompatibleWithThisHorario/Sesion.h
+	<iostream>
+

@@ -26,3 +26,24 @@
 
 1646414958 /mnt/sda3/Users/LMC/2021/REPOS_2021/2MM4_PROG_AVAN_2021-2/REPO_progavan_2021-2/org_progavan/2021-2/U1_Programacion_orientada_a_objetos/prog33-Abstraccion/prog33-Abstraccion_util.h
 
+1638490534 source:/mnt/sda3/Users/LMC/2021/REPOS_2021/2MM4_PROG_AVAN_2021-2/REPO_progavan_2021-2/org_progavan/2021-2/U1_Programacion_orientada_a_objetos/prog33-Abstraccion/00_FigsGeom/TestFG.cpp
+	<iostream>
+	"Cuadro.h"
+	"Circulo.h"
+	"Triangulo.h"
+
+1638485641 /mnt/sda3/Users/LMC/2021/REPOS_2021/2MM4_PROG_AVAN_2021-2/REPO_progavan_2021-2/org_progavan/2021-2/U1_Programacion_orientada_a_objetos/prog33-Abstraccion/00_FigsGeom/Cuadro.h
+	<iostream>
+	"FiguraGeometrica.h"
+
+1649456424 /mnt/sda3/Users/LMC/2021/REPOS_2021/2MM4_PROG_AVAN_2021-2/REPO_progavan_2021-2/org_progavan/2021-2/U1_Programacion_orientada_a_objetos/prog33-Abstraccion/00_FigsGeom/FiguraGeometrica.h
+	<iostream>
+
+1638485618 /mnt/sda3/Users/LMC/2021/REPOS_2021/2MM4_PROG_AVAN_2021-2/REPO_progavan_2021-2/org_progavan/2021-2/U1_Programacion_orientada_a_objetos/prog33-Abstraccion/00_FigsGeom/Circulo.h
+	<iostream>
+	"FiguraGeometrica.h"
+
+1638487062 /mnt/sda3/Users/LMC/2021/REPOS_2021/2MM4_PROG_AVAN_2021-2/REPO_progavan_2021-2/org_progavan/2021-2/U1_Programacion_orientada_a_objetos/prog33-Abstraccion/00_FigsGeom/Triangulo.h
+	<iostream>
+	"FiguraGeometrica.h"
+

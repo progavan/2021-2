@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <wxsmith>
 	<object class="wxFrame" name="StructMsgGUIFrame">
-		<title>Emails list accumulator</title>
+		<title>Emails List Accumulator</title>
 		<id_arg>0</id_arg>
 		<object class="wxTextCtrl" name="ID_TEXTCTRL_NOTEPAD" variable="TextCtrlNotePad" member="yes">
 			<pos>128,144</pos>

@@ -1,0 +1,44 @@
+# depslib dependency file v1.0
+1637719634 source:/mnt/sda3/Users/LMC/2021/REPOS_2021/2MM4_PROG_AVAN_2021-2/REPO_progavan_2021-2/org_progavan/2021-2/U1_Programacion_orientada_a_objetos/prog29-HerenciaSimple/main.cpp
+	<iostream>
+	"cuenta_ahorro.h"
+	"cuenta_corriente_plus.h"
+
+1637719634 /mnt/sda3/Users/LMC/2021/REPOS_2021/2MM4_PROG_AVAN_2021-2/REPO_progavan_2021-2/org_progavan/2021-2/U1_Programacion_orientada_a_objetos/prog29-HerenciaSimple/include/cuenta_ahorro.h
+	"cuenta.h"
+
+1649455202 /mnt/sda3/Users/LMC/2021/REPOS_2021/2MM4_PROG_AVAN_2021-2/REPO_progavan_2021-2/org_progavan/2021-2/U1_Programacion_orientada_a_objetos/prog29-HerenciaSimple/include/cuenta.h
+	<string>
+
+1637719634 /mnt/sda3/Users/LMC/2021/REPOS_2021/2MM4_PROG_AVAN_2021-2/REPO_progavan_2021-2/org_progavan/2021-2/U1_Programacion_orientada_a_objetos/prog29-HerenciaSimple/include/cuenta_corriente_plus.h
+	"cuenta_corriente.h"
+
+1637719634 /mnt/sda3/Users/LMC/2021/REPOS_2021/2MM4_PROG_AVAN_2021-2/REPO_progavan_2021-2/org_progavan/2021-2/U1_Programacion_orientada_a_objetos/prog29-HerenciaSimple/include/cuenta_corriente.h
+	"cuenta.h"
+
+1649455107 source:/mnt/sda3/Users/LMC/2021/REPOS_2021/2MM4_PROG_AVAN_2021-2/REPO_progavan_2021-2/org_progavan/2021-2/U1_Programacion_orientada_a_objetos/prog29-HerenciaSimple/src/cuenta_corriente.cpp
+	<iostream>
+	"cuenta_corriente.h"
+	"fecha.h"
+
+1649452831 /mnt/sda3/Users/LMC/2021/REPOS_2021/2MM4_PROG_AVAN_2021-2/REPO_progavan_2021-2/org_progavan/2021-2/U1_Programacion_orientada_a_objetos/prog29-HerenciaSimple/include/fecha.h
+
+1649455109 source:/mnt/sda3/Users/LMC/2021/REPOS_2021/2MM4_PROG_AVAN_2021-2/REPO_progavan_2021-2/org_progavan/2021-2/U1_Programacion_orientada_a_objetos/prog29-HerenciaSimple/src/cuenta_corriente_plus.cpp
+	<iostream>
+	"cuenta_corriente_plus.h"
+	"fecha.h"
+
+1649452901 source:/mnt/sda3/Users/LMC/2021/REPOS_2021/2MM4_PROG_AVAN_2021-2/REPO_progavan_2021-2/org_progavan/2021-2/U1_Programacion_orientada_a_objetos/prog29-HerenciaSimple/src/cuenta.cpp
+	<iostream>
+	"cuenta.h"
+
+1649453459 source:/mnt/sda3/Users/LMC/2021/REPOS_2021/2MM4_PROG_AVAN_2021-2/REPO_progavan_2021-2/org_progavan/2021-2/U1_Programacion_orientada_a_objetos/prog29-HerenciaSimple/src/fecha.cpp
+	<iostream>
+	"ctime"
+	"fecha.h"
+
+1649455138 source:/mnt/sda3/Users/LMC/2021/REPOS_2021/2MM4_PROG_AVAN_2021-2/REPO_progavan_2021-2/org_progavan/2021-2/U1_Programacion_orientada_a_objetos/prog29-HerenciaSimple/src/cuenta_ahorro.cpp
+	<iostream>
+	"cuenta_ahorro.h"
+	"fecha.h"
+

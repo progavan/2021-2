@@ -65,7 +65,7 @@ StructMsgGUIFrame::StructMsgGUIFrame(wxWindow* parent,wxWindowID id)
     wxMenuItem* MenuItem1;
     wxMenuItem* MenuItem2;
 
-    Create(parent, wxID_ANY, _("Emails list accumulator"), wxDefaultPosition, wxDefaultSize, wxDEFAULT_FRAME_STYLE, _T("wxID_ANY"));
+    Create(parent, wxID_ANY, _("Emails List Accumulator"), wxDefaultPosition, wxDefaultSize, wxDEFAULT_FRAME_STYLE, _T("wxID_ANY"));
     TextCtrlNotePad = new wxTextCtrl(this, ID_TEXTCTRL_NOTEPAD, wxEmptyString, wxPoint(128,144), wxDefaultSize, wxTE_MULTILINE, wxDefaultValidator, _T("ID_TEXTCTRL_NOTEPAD"));
     MenuBar1 = new wxMenuBar();
     Menu1 = new wxMenu();

@@ -13,7 +13,7 @@ CCuenta(nom, cue, sal, tipo), cuotaMantenimiento(mant)
 {
   asignarCuotaManten(mant); // verificar el dato mant
 }
-
+/** Contructor copia */
 CCuentaAhorro::CCuentaAhorro(const CCuentaAhorro& ca) : CCuenta(ca)
 {
   *this = ca;
@@ -54,12 +54,13 @@ double CCuentaAhorro::intereses()
   int dia, mes, anyo;
   CFecha::obtenerFechaActual(dia, mes, anyo);
 
-  if (dia != 1) return 0.0;
+  //if (dia != 1) return 0.0;
+  if (dia != FECHA_CORTE) return 0.0;
   // Acumular los intereses por mes sólo los días 1 de cada mes
   double interesesProducidos = 0.0;
   interesesProducidos = estado() * obtenerTipoDeInteres() / 1200.0;
   ingreso(interesesProducidos);
-
+  std::cout<<"(CCuentaAhorro) InteresesProducidos > 0 :-)\n";
   // Devolver el interés mensual por si fuera necesario
   return interesesProducidos;
 }

@@ -1,0 +1,18 @@
+# depslib dependency file v1.0
+1651880616 source:/mnt/sda3/Users/LMC/2021/REPOS_2021/2MM4_PROG_AVAN_2021-2/REPO_progavan_2021-2/org_progavan/2021-2/U1_Programacion_orientada_a_objetos/Using_vector/Testing_vector.cpp
+	<iostream>
+	<vector>
+	<cassert>
+	"VectorCont.h"
+	"datos.cpp"
+
+1651880059 /mnt/sda3/Users/LMC/2021/REPOS_2021/2MM4_PROG_AVAN_2021-2/REPO_progavan_2021-2/org_progavan/2021-2/U1_Programacion_orientada_a_objetos/Using_vector/VectorCont.h
+	<vector>
+
+1651879735 /mnt/sda3/Users/LMC/2021/REPOS_2021/2MM4_PROG_AVAN_2021-2/REPO_progavan_2021-2/org_progavan/2021-2/U1_Programacion_orientada_a_objetos/Using_vector/datos.cpp
+
+1651872192 source:/mnt/sda3/Users/LMC/2021/REPOS_2021/2MM4_PROG_AVAN_2021-2/REPO_progavan_2021-2/org_progavan/2021-2/U1_Programacion_orientada_a_objetos/Using_vector/VectorCont.cpp
+	"VectorCont.h"
+
+1651271195 source:/mnt/sda3/Users/LMC/2021/REPOS_2021/2MM4_PROG_AVAN_2021-2/REPO_progavan_2021-2/org_progavan/2021-2/U1_Programacion_orientada_a_objetos/Using_vector/datos.cpp
+

@@ -251,4 +251,5 @@ std::string Phone_Directory ::
  */
 void Phone_Directory::remove_entry(int index){
   // Ejercicio 2020.11.26
+  // ESCRIBA SU CODIGO AQUI
 }

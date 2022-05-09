@@ -20,12 +20,14 @@ double CCuentaCorrienteConIn::intereses()
   int dia, mes, anyo;
   CFecha::obtenerFechaActual(dia, mes, anyo);
 
-  if (dia != 1 || estado() < 3000) return 0.0;
+  //if (dia != 1 || estado() < 3000) return 0.0;
+  if (dia != FECHA_CORTE || estado() < 3000) return 0.0;
 
   // Acumular interés mensual sólo los días 1 de cada mes
   double interesesProducidos = 0.0;
   interesesProducidos = estado() * obtenerTipoDeInteres() / 1200.0;
   ingreso(interesesProducidos);
+  std::cout<<"(CCuentaCorrienteConIn) InteresesProducidos > 0 :-)\n";
   // Este ingreso no debe incrementar las transacciones
   decrementarTransacciones();
 

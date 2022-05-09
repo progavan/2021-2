@@ -3,8 +3,8 @@
 #include <conio.h>
 #endif // __unix__
 #include <iostream>
-#include "hourlyemployee.h"
-#include "salariedemployee.h"
+#include "../include/hourlyemployee.h"
+#include "../include/salariedemployee.h"
 using std::cout;
 using std::endl;
 using SavitchEmployees::HourlyEmployee;

@@ -22,6 +22,7 @@ CCuenta::CCuenta(const CCuenta& c)
   *this = c;
 }
 
+/** Sobrecarga del operador = */
 CCuenta& CCuenta::operator=(const CCuenta& c)
 {
   nombre = c.nombre;

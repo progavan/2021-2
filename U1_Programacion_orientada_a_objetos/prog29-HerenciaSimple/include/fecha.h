@@ -21,6 +21,6 @@ class CFecha
     const int& obtenerAnyo() const;
     static void asignarFechaPorOmision(int = 0, int = 0, int = 0);
     static void obtenerFechaActual(int&, int&, int&);
-};
+};//end CFecha
 
 #endif // _FECHA_H_

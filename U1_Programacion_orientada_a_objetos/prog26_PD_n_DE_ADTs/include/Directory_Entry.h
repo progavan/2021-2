@@ -18,6 +18,6 @@ protected:
   std::string name;
   std::string number;
 private:
-};
+};/*end class Directory_Entry*/
 
 #endif // DIRECTORY_ENTRY_H

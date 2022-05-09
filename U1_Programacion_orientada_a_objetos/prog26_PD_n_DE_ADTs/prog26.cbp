@@ -20,6 +20,7 @@
 			</Target>
 			<Target title="Release">
 				<Option output="bin/Release/prog26" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="../prog26_PD_n_DE_ADTs" />
 				<Option object_output="obj/Release/" />
 				<Option type="1" />
 				<Option compiler="gcc" />

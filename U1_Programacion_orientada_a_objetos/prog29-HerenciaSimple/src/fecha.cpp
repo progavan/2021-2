@@ -39,7 +39,8 @@ void CFecha::obtenerFechaActual(int& dd, int& mm, int& aaaa)
   time_t segundos;
   time(&segundos);
   fh = localtime(&segundos);
-  dd = fh->tm_mday; mm = fh->tm_mon+1; aaaa = fh->tm_year+1900;
+  //dd = fh->tm_mday; mm = fh->tm_mon+1; aaaa = fh->tm_year+1900;
+  dd = fh->tm_mday; mm = fh->tm_mon; aaaa = fh->tm_year+1900;
 }
 
 void CFecha::obtenerFecha(int& dd, int& mm, int& aaaa) const

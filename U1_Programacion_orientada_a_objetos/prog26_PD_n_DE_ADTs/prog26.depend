@@ -67,3 +67,26 @@
 1637108901 source:/mnt/sda3/Users/LMC/2021/REPOS_2021/2MM4_PROG_AVAN_2021-2/REPO_progavan_2021-2/org_progavan/2021-2/U1_Programacion_orientada_a_objetos/prog26/src/Directory_Entry.cpp
 	"Directory_Entry.h"
 
+1637245559 source:/mnt/sda3/Users/LMC/2021/REPOS_2021/2MM4_PROG_AVAN_2021-2/REPO_progavan_2021-2/org_progavan/2021-2/U1_Programacion_orientada_a_objetos/prog26_PD_n_DE_ADTs/main.cpp
+	<iostream>
+	<fstream>
+	<limits>
+	<cassert>
+	"Phone_Directory.h"
+
+1637244262 /mnt/sda3/Users/LMC/2021/REPOS_2021/2MM4_PROG_AVAN_2021-2/REPO_progavan_2021-2/org_progavan/2021-2/U1_Programacion_orientada_a_objetos/prog26_PD_n_DE_ADTs/include/Phone_Directory.h
+	<iostream>
+	"Directory_Entry.h"
+
+1648766073 /mnt/sda3/Users/LMC/2021/REPOS_2021/2MM4_PROG_AVAN_2021-2/REPO_progavan_2021-2/org_progavan/2021-2/U1_Programacion_orientada_a_objetos/prog26_PD_n_DE_ADTs/include/Directory_Entry.h
+	<iostream>
+
+1637244535 source:/mnt/sda3/Users/LMC/2021/REPOS_2021/2MM4_PROG_AVAN_2021-2/REPO_progavan_2021-2/org_progavan/2021-2/U1_Programacion_orientada_a_objetos/prog26_PD_n_DE_ADTs/src/Directory_Entry.cpp
+	"Directory_Entry.h"
+
+1648768290 source:/mnt/sda3/Users/LMC/2021/REPOS_2021/2MM4_PROG_AVAN_2021-2/REPO_progavan_2021-2/org_progavan/2021-2/U1_Programacion_orientada_a_objetos/prog26_PD_n_DE_ADTs/src/Phone_Directory.cpp
+	<fstream>
+	<cassert>
+	<iostream>
+	"Phone_Directory.h"
+

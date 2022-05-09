@@ -95,6 +95,7 @@
 		<Unit filename="prog33-Abstraccion_util.cpp">
 			<Option target="01_AbsToExtFunc" />
 			<Option target="02_ch_aux" />
+			<Option target="00_FigurasGeometricas" />
 		</Unit>
 		<Unit filename="prog33-Abstraccion_util.h">
 			<Option target="01_AbsToExtFunc" />

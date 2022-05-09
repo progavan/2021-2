@@ -2,7 +2,23 @@
 #include <string>
 #include <cstdlib>
 #include <iostream>
-#include "Employee.h"
+/**Si queremos usar la siguiente directiva
+ * #include <Employee.h>
+ * Tendr\'iamos que modificar en las opciones de
+ * configuraci\'on de Codeblocks
+ * Project ->Properties->Project's build options
+ * en la ficha Search directories,
+ * dando clic en el bot\'on Add/Agregar y seleccionar
+ * el directorio include dentro del directorio base
+ * del proyecto (agreg\'andolo como ruta relativa).
+ * Si se construye desde la l\'inea de comandos,
+ * entonces deberemos agrega el modificador -I./include
+ * (o la ruta que sea apropiada), ya sea en el comando
+ * g++ -I./include -c src/Employee.cpp -o Employee.o
+ * o posiblemente en un comando enun archivo Makefile.
+ */
+#include "../include/Employee.h"
+
 using std::string;
 using std::cout;
 using std::exit;
@@ -64,4 +80,4 @@ namespace SavitchEmployees
         exit(1);
     }
 
-}// SavitchEmployees
+}// namespace SavitchEmployees
